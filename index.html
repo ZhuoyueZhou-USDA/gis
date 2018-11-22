@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+		<meta name="viewpoint" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Washington DC 2011 Crime Analysis</title>
+
+		<link rel="stylesheet" href="https://js.arcgis.com/4.8/esri/css/main.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://js.arcgis.com/4.8/"></script>	
+		
+
+    <style>
+		html, body, .container{
+		  position: relative;
+			width: 100%;
+			height: 100%;
+			overflow-x: hidden;
+			 font-size: 100%;
+		}
+	
+		#mapSection{
+		  position: relative;
+		  top: 1%;
+			left: 0;
+			width: 100%;
+		  height: 100%;
+		}
+		
+    #DCmap{
+      position: absolute;
+      padding: 0;
+		  margin:  0;
+			height: 100%;
+			width: 100%;
+			z-index: 10;
+			border: 2px solid #D3D3D3;
+		}
+
+    #MapTitle{
+	   position: absolute;
+	   height: 10%;
+	   left: 26%;
+      color: #4B0082;
+	   width: 60%;
+	   top:2%;
+	  font-size: 2em;
+	}		
+		
+		#lyrLegend {
+      position: absolute;
+      bottom: 4%;
+      left: 1%;
+      max-width: 300px;
+      background-color: black;
+      padding: 8px;
+      border-top-right-radius: 5px;
+      color: white;
+			height: 50%;
+    }
+		
+		#sidebarHandler{
+		  position: absolute;
+      padding: 0;
+		  margin:  0;
+			height: 6%;
+			width: 20%;
+			z-index: 10;
+			left: -21%;
+			top: 10%;
+			cursor: pointer;
+		  animation: shake 0.92s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+		}
+
+  @keyframes shake {
+    10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+		#sidebar{
+		  position: absolute;
+			right: -22%;
+			width: 20%;
+		  height: 100%;
+	
+			z-index: 20;
+			border: 2px solid #D3D3D3;
+		  background-image: url("http://www.huntfairchase.com/wp-content/uploads/2016/09/photo-placeholder-4.jpg");
+		}
+		
+		div#crimeCategory, div#crimeTime, div#crimeLocation{
+		   padding-top: 10px;
+		   padding-left: 20px;
+		}
+		
+		div#crimeCategory ul, div#crimeLocation ul{
+		  padding: 0; 
+		}
+		
+		div#crimeCategory ul li, div#crimeLocation ul li{
+		  list-style-type: none;
+		}
+		
+		div#crimeLocation ul li{
+		  display: inline-block;
+		}
+
+    </style>
+		
+		<script type="text/javascript">
+ 
+ require([
+ "esri/Map",
+ "esri/views/MapView",
+ "esri/layers/GraphicsLayer",
+ "esri/layers/FeatureLayer",
+ "esri/Graphic",
+ "esri/PopupTemplate",
+ "esri/tasks/QueryTask",
+ "esri/tasks/support/Query",
+ "esri/tasks/Geoprocessor",  
+ "esri/widgets/Home",
+ "esri/widgets/Locate",
+ "esri/widgets/Print",
+ "esri/widgets/Expand",
+ "esri/widgets/ScaleBar",
+ "esri/widgets/Track",
+ "esri/widgets/NavigationToggle",
+ "esri/widgets/BasemapGallery",
+ "esri/widgets/Directions",
+ "esri/core/urlUtils",
+ "esri/renderers/SimpleRenderer",
+ "esri/symbols/SimpleMarkerSymbol",
+ "esri/symbols/SimpleLineSymbol",
+ "esri/symbols/SimpleFillSymbol",
+ "esri/widgets/Legend",
+ "dojo/on",
+ "dojo/dom",
+ "esri/geometry/Point",
+ "esri/geometry/geometryEngine",
+ "dojo/domReady!"
+
+ ],function(Map, MapView, GraphicsLayer, FeatureLayer, Graphic, PopupTemplate, QueryTask, 
+ Query, Geoprocessor, Home, Locate, Print, Expand, ScaleBar, Track, NavigationToggle, BasemapGallery, Directions, urlUtils, SimpleRenderer,
+        SimpleMarkerSymbol, SimpleLineSymbol, SimpleFillSymbol, Legend, on, dom, Point, geometryEngine){
+
+ 
+        //Park Layer
+        var parkRenderer = new SimpleRenderer({
+          symbol: new SimpleFillSymbol({
+            color: [0, 255, 0, 0.1],
+            outline: {
+              color: [128, 128, 128],
+              width: 2
+            }
+          })
+        });
+		
+		    var DC_Park_lyr = new FeatureLayer({
+          url: "http://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/DC_parks_hawkins/FeatureServer/0",
+          renderer: parkRenderer,
+          popupTemplate: {
+            content: "{*}"
+          }
+        });
+				
+				//DC Boudanry
+        var BoundaryRenderer = new SimpleRenderer({	
+   			symbol: new SimpleLineSymbol({
+            width: 3,
+            color: [64, 255, 0]
+          })
+        });
+        var DC_Boundary_lyr = new FeatureLayer({
+          url: "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Administrative_Other_Boundaries_WebMercator/MapServer/10",
+          renderer: BoundaryRenderer,
+          popupTemplate: {
+            content: "{*}"
+          }
+        });
+				
+		//Grocery Store
+		var groceryStoreRenderer = new SimpleRenderer({
+        symbol: new SimpleMarkerSymbol({
+            size: 10,
+            color: "#00FFFF",
+            outline: { // autocasts as new SimpleLineSymbol()
+              color: [138,43,226, 0.4], // autocasts as new Color()
+              width: 7
+            }
+          })
+        });
+        var groceryStoreLyr = new FeatureLayer({
+          url: "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Business_and_Economic_Development_WebMercator/MapServer/4",
+          renderer: groceryStoreRenderer,
+          popupTemplate: {
+            content: "{*}"
+          }
+        });
+				
+			
+			//Crime feature layer
+ 	var Crime_url = "https://services.arcgis.com/V6ZHFr6zdgNZuVG0/ArcGIS/rest/services/DC_Crime_2011/FeatureServer/0";
+	var DCCrimeLyr = new FeatureLayer(Crime_url);
+    var template = new PopupTemplate({
+      title: "DC Crime Type",
+      content: [{
+        type: "fields",
+        fieldInfos: [{
+          fieldName: "OFFENSE",
+          label: "Crime Type",
+				visible: true
+        },{
+			fieldName: "REPORTDATETIME",
+            label: "Time",
+			visible: true
+		},{
+			fieldName: "BLOCKSITEADDRESS",
+            label: "Address",
+			visible: true
+		}]
+      }]
+    });
+	DCCrimeLyr.popupTemplate = template;
+	
+    // GraphicsLayer for displaying results
+    var resultsLayer = new GraphicsLayer();
+    var bufferLayer = new GraphicsLayer();
+	  var gstoreBuffer;
+    var groceryGeometries;
+				
+    var Map = new Map({
+      basemap: 'topo',
+		 layers: [DC_Boundary_lyr, DCCrimeLyr, resultsLayer, groceryStoreLyr, DC_Park_lyr, bufferLayer]
+    });
+  
+	var view = new MapView({
+    container: "DCmap",
+		map: Map,
+		zoom: 12,
+		center: [-77.024164, 38.908405]
+   });
+
+	var legend = new Legend({
+          view: view,
+          layerInfos: [
+          {
+            layer: groceryStoreLyr,
+            title: "Grocery Store"
+          }, {
+            layer: DC_Park_lyr,
+            title: "DC Parks"
+          }, {
+            layer: DC_Boundary_lyr,
+            title: "DC Boundary"
+          },{
+		        layer:DCCrimeLyr,
+			      title: "Crime Distribution" 
+		  
+		  }]
+        }, "lyrLegend");
+ 
+	
+	//Map Widgets
+	var homeBtn = new Home({
+    view: view
+  });
+	
+	var locateBtn = new Locate({
+    view: view
+  });
+	
+	var basemapGallery = new BasemapGallery({
+    view: view,
+		container: document.createElement("div")
+  });
+	
+  var bgExpand = new Expand({
+    view: view,
+    content: basemapGallery
+  });
+	
+	view.ui.add(bgExpand, "top-right");
+	
+	var trackWidget = new Track({
+  view: view
+});
+
+view.ui.add(trackWidget, "top-left");
+	
+	var navigationToggle = new NavigationToggle({
+  view: view
+});
+
+// and adds it to the top right of the view
+view.ui.add(navigationToggle, "top-left");
+
+/*var print = new Print({
+    view: view,
+      // specify your own print service
+      printServiceUrl: "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task"
+  });
+	
+  var bgExpand = new Expand({
+    view: view,
+    content: print
+  });
+	
+	view.ui.add(bgExpand, "top-right");*/
+
+
+var scaleBar = new ScaleBar({
+  view: view
+});
+// Add widget to the bottom left corner of the view
+view.ui.add(scaleBar, {
+  position: "top-right"
+});
+	
+  // Add the home button to the top left corner of the view
+  view.ui.add(homeBtn, "top-left");
+	view.ui.add(locateBtn, {position: "top-left"});
+	
+	      // Proxy the route requests to avoid prompt for log in
+ /*     urlUtils.addProxyRule({
+        urlPrefix: "route.arcgis.com",
+        proxyUrl: "/"
+      });*/
+	/*  var directionsWidget = new Directions({
+        view: view
+      });
+      // Add the Directions widget to the top right corner of the view
+      view.ui.add(directionsWidget, {
+        position: "bottom-left"
+      });*/
+	
+	//Create buffer according to range slider value
+  $("#bufferval").val($("#bufferDis").val());
+	
+	$(document).on("click", "#bufferCreate", function(){
+     view.when(function() {
+        return groceryStoreLyr.when(function() {
+          var query = groceryStoreLyr.createQuery();
+            return groceryStoreLyr.queryFeatures(query);	  
+          });			
+      }).then(queryGStoreGeometries).then(createBuffer);
+	  
+  });
+	
+	     function queryGStoreGeometries() {
+          var gstoreQuery = groceryStoreLyr.createQuery();
+          return groceryStoreLyr.queryFeatures(gstoreQuery)
+            .then(function(response) {
+              groceryGeometries = response.features.map(function(feature) {
+                return feature.geometry;
+              });
+              return groceryGeometries;
+            });
+        }
+	
+			 function createBuffer(gstorePoints) {
+			 
+			    console.log("gstorePoints:",gstorePoints);
+			  	var bufferDistance = parseInt($("#bufferval").val());
+              var gstoreBuffers = geometryEngine.geodesicBuffer(gstorePoints, [
+              bufferDistance
+            ], "meters",
+            true);
+          gstoreBuffer = gstoreBuffers[0];
+					
+					console.log("gstoreBuffer:",gstoreBuffers);
+
+          // add the buffer to the view as a graphic
+          var bufferGraphic = new Graphic({
+            geometry: gstoreBuffer,
+            symbol: {
+              type: "simple-fill", 
+              outline: {
+                width: 2,
+                color: [0, 0, 255]
+              },
+              style: "none"
+            }
+          });
+					
+					console.log("bufferGraphic:",bufferGraphic);
+          view.graphics.removeAll();
+          view.graphics.add(bufferGraphic);
+	     };
+	
+	//Get dynamic value from range slider 
+	$("#bufferDis").on("input change", function() {
+ 
+	   var value = $("#bufferDis").val();
+	   $("#bufferval").val(value);
+  });
+
+	//get buffer radius
+	$("#bufferQueryCrime").click(function(){ 
+	   $("#queryBufferResults").empty();
+		 queryDCCrimeLyr().then(displayResults); 
+	});
+			 
+			 //spatial query for crimes
+      function queryDCCrimeLyr() {
+          var query = DCCrimeLyr.createQuery();
+					
+          query.geometry = gstoreBuffer;
+          query.spatialRelationship = "intersects";
+      //    query.spatialRelationship = "intersects";
+	        //	  query.returnGeometry = true;
+		      query.outFields = ["*"];
+
+    		  console.log("gstoreBuffer:",gstoreBuffer);
+    		  console.log("DC:",DCCrimeLyr.queryFeatures(query));
+          return DCCrimeLyr.queryFeatures(query);		
+        };
+				
+	    function displayResults(results) {
+	        Map.remove(DCCrimeLyr);
+		      console.log("resulst:",results);
+
+          bufferLayer.removeAll();
+          var bufferCrimeFeatures = results.features.map(function(graphic){
+            graphic.symbol = {
+              type: "simple-marker", // new SimpleMarkerSymbol()
+              style: "diamond",
+              size: 7.5,
+              color: "red"
+            };
+            return graphic;
+          });
+		  
+		      console.log("bufferCrimeFeatures:",bufferCrimeFeatures);
+		      console.log("length:",bufferCrimeFeatures.length);
+					
+          var numCrimes = bufferCrimeFeatures.length;
+					console.log("numCrimes:",numCrimes);
+    			var result = "Totally <span style='color: red;'>"+numCrimes+ "</span> crimes are found within the "+ $("#bufferval").val() +" meters buffer of grocery stores!"
+		    	$("#queryBufferResults").html(result);         
+          bufferLayer.addMany(bufferCrimeFeatures);
+		
+      };
+	
+
+	//Open/close sidebar
+	$("#sidebarHandler").click(function(){
+	
+	  var icon = $(this).find("i");
+		if(icon.hasClass('fa fa-arrow-circle-left')){
+        $("#sidebar").animate({
+		    right: 0,
+		  }, 1500, function(){
+			  icon.removeClass('fa fa-arrow-circle-left');
+			  icon.addClass('fa fa-arrow-circle-right');
+			})
+			$("#sidebarHandler").attr('title', 'click to close sidebar')
+		}else{
+
+		  $("#sidebar").animate({
+		    right: '-22%'
+		  }, 1500, function(){
+			  icon.removeClass('fa fa-arrow-circle-right');
+			  icon.addClass('fa fa-arrow-circle-left');
+			  $("#sidebarHandler").attr('title', 'click to view sidebar')
+		  })
+		}
+	});
+	
+	
+	//Attribute Query Crime
+	var crimeBeginTime;
+  var crimeEndTime;
+
+	$( function() {
+    $( "#fromDate" ).datepicker({
+		  minDate: '-8Y',
+      maxDate: '-6Y',
+			changeYear: true,
+		  onSelect: function(dateText, inst) {
+         $("#fromDate").val(dateText);
+			}
+		});	
+    $( "#toDate" ).datepicker({
+	    minDate: '-8Y',
+      maxDate: '-6Y',
+			changeYear: true,
+		  onSelect: function(dateText, inst) {
+         $("#toDate").val(dateText);
+			}
+		});
+  });
+	
+	//Query Where
+	$("#queryCrime").click(function(){
+	  var crimeType = [];			
+  	var crimeLocation = [];
+	
+    $("#queryResults").empty();
+		crimeBeginTime = $("#fromDate").val();
+  	crimeEndTime = $("#toDate").val();
+		console.log("crimeBeginTime:",crimeBeginTime);
+	  console.log("crimeEndTime:",crimeEndTime);
+		//debugger;
+	  //Get Crime Type
+	  $(".crimeCheck").each(function(index,value){
+		  if($(this).prop('checked')){
+			  console.log('checked');
+			  crimeType.push($(this).val());
+			}
+		});
+		
+		//Get Crime Location
+	  $(".crimeLoc").each(function(index,value){
+		  if($(this).prop('checked')){
+			  crimeLocation.push($(this).val());
+			}
+		});
+	
+	  //Execute Crime Task
+	  var queryTask = new QueryTask({
+		  url: Crime_url
+		});
+		
+		var query = new Query();
+		query.returnGeometry = true;
+		query.OutFields = ["*"];
+    query.where = "";
+		
+		if(!crimeBeginTime){
+		  crimeBeginTime = "01/01/1900"
+		}
+		if(!crimeEndTime){
+		  crimeEndTime = "01/01/2018"
+		}		
+		//Query where		
+		query.where = "(REPORTDATETIME > '"+crimeBeginTime+"' AND REPORTDATETIME < '"+crimeEndTime + "')";
+		
+	//	console.log("query:",query.where);
+		//debugger;
+		
+		if(crimeType.length>0){
+		  query.where += " AND (OFFENSE = '" + crimeType[0] + "'";
+			for(i=1; i<crimeType.length; i++){
+			  if(crimeType[i]){
+			    query.where += " OR OFFENSE = '" +crimeType[i] + "'";
+				}
+			} 
+			query.where += ")";
+		}
+		
+		if(crimeLocation.length>0){
+		  query.where += " AND (DISTRICT = '" + crimeLocation[0] + "'";
+		  for(i=1; i<crimeLocation.length; i++){
+			  if(crimeLocation[i]){
+			    query.where += " OR DISTRICT = '" +crimeLocation[i] + "'";
+				}			  
+			}
+      query.where += ")";			
+		}
+				
+	//  query.where = "OFFENSE ='Burglary' AND DISTRICT='THIRD'";
+	//  query.where += " AND (OFFENSE ='Burglary' OR OFFENSE='THEFT')";
+
+		console.log("query.where:",query.where);
+		
+		if(crimeType.length == 0 || crimeLocation.length==0 ){
+		   alert('Select Crime Category and Location!');
+		}else{
+		   queryTask.execute(query).then(function(results){
+	     console.log("results.features:",results.features);
+		//  debugger;
+			
+			resultsLayer.removeAll();
+			var features = results.features.map(function(graphic) {
+			
+			//  console.log("graphic:",graphic);
+        graphic.symbol = {  
+		   	type: "simple-marker", // autocasts as new SimpleMarkerSymbol()
+            style: "diamond",
+            size: 6.5,
+            color: "darkorange"
+        };
+        return graphic;
+      });
+			
+		Map.remove(DCCrimeLyr);
+		resultsLayer.addMany(features);
+		},function(error){
+		  console.log(error);
+		});
+		
+		queryTask.executeForCount(query).then(function(count){		  
+		   var result = "Totally <span style='color: red;'>"+count+ "</span> crimes are found!"
+			 $("#queryResults").html(result);
+		   console.log(count);
+			
+		},function(error){ 		
+		   console.log(error);
+		});
+		
+		}
+	});
+	
+});
+ 
+</script>
+			
+</head>
+  
+<body>
+<div class="container" style="margin-left: 0; margin-right: 0">
+
+  <div id="mapSection">
+    <div id="DCmap">
+	      <div id="MapTitle">Washington D.C. Crime Spatial Analysis</div>
+		
+		  <div id="lyrLegend"></div>
+		
+		</div>
+	  
+	
+  	<div id="sidebar">
+			<div id="sidebarHandler" title="click to view sidebar">
+		    <i class="fa fa-arrow-circle-left" style="font-size:36px"></i>
+	  	</div>
+	  <!-- Query Crime by Type -->
+		
+	    <div id="crimeCategory">
+		  <p style="font-weight: 700;">Crime Type</p>
+		    <ul>
+		      <li><input class="crimeCheck" type="checkbox" name="crimeType[]" value="Burglary"> Burglary</li>
+	  	    <li><input class="crimeCheck" type="checkbox" name="crimeType[]" value="Theft"> Theft</li>
+	  	    <li><input class="crimeCheck" type="checkbox" name="crimeType[]" value="Theft F/AUTO"> Theft from Auto</li>
+	      </ul>
+      </div>
+		
+		<!-- Query Crime by Time -->
+	    <div id="crimeTime">
+	     	<p style="font-weight: 700;">Crime Time Period</p>
+		    <p>From: <input type="text" style="width: 60%;" id="fromDate" placeholder="begin time point"></p>			
+		    <p>To: <input type="text" style="width: 60%;" id="toDate" placeholder="end time point"></p>
+      </div>		
+		
+		<!-- Query Crime by District -->
+		  <div id="crimeLocation">
+	  	<p style="font-weight: 700;">Crime Location</p>
+		    <ul>
+	  	    <li><input class="crimeLoc" type="checkbox" name="District[]" value="FIRST"> District 1</li>
+		      <li><input class="crimeLoc" type="checkbox" name="District[]" value="SECOND"> District 2</li>
+		      <li><input class="crimeLoc" type="checkbox" name="District[]" value="THIRD"> District 3</li>
+		      <li><input class="crimeLoc" type="checkbox" name="District[]" value="FOURTH"> District 4</li>
+		      <li><input class="crimeLoc" type="checkbox" name="District[]" value="FIFTH"> District 5</li>
+		      <li><input class="crimeLoc" type="checkbox" name="District[]" value="SIXTH"> District 6</li>
+		      <li><input class="crimeLoc" type="checkbox" name="District[]" value="SEVENTH"> District 7</li>
+	  	  </ul>
+		  </div>
+		
+	<!--	<select name="district" id="crime_district">
+      <option value="FIRST">District 1</option>
+      <option value="SECOND">District 2</option>
+      <option value="THIRD">District 3</option>
+      <option value="FOURTH">District 4</option>
+      <option value="FIFTH">District 5</option>
+      <option value="SIXTH">District 6</option>
+    </select>
+		-->
+
+		  <div style="display: inline-block; margin-top: 5px; padding-left: 20px;">
+		    <input type="submit" id="queryCrime" title="Click to query crime layer" value="Query">
+		  </div>
+<!--		<div style="display: inline-block; margin-top: 5px; padding-left: 20px;"><input type="submit" id="CrimeHotSpot" title="Click to generate hotspot" value="Hotspot"></div>
+		-->
+		  <div style="margin-top: 5px; padding-left: 20px; " id="queryResults"></div>
+		
+
+          <div style="display: inline-block; margin-top: 15px; padding-left: 20px; padding-right: 20px;">
+		  
+				<label for="distance">Distance (meters)</label>
+                
+				<input type="range" style="width: 60%;" id="bufferDis" name="distance" min="10" max="500" step="10" value="100"/>
+                
+				<div> <input style="margin-top: 5px; width: 60%;" type="text" id="bufferval" name="bufferval"/></div>
+				 
+				<div style="display: inline-block; margin-top: 5px;"><input type="submit" id="bufferCreate" title="Click to create buffer" value="CreateBuffer"></div>
+				 
+				<div style="display: inline-block; margin-top: 5px;"><input type="submit" id="bufferQueryCrime" title="Click to query crime layer" value="BufferQuery"></div>
+				 
+	
+   		  </div>
+		
+		  <div style="margin-top: 5px; padding-left: 20px;" id="queryBufferResults"></div>
+			
+	  </div>
+  </div>
+
+</div>
+</body>
+</html>
+
+
+ 
