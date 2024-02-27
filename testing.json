@@ -1,0 +1,2218 @@
+{
+    "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+    "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+    "@id": "https://api.figshare.com/v2/usda/data-ars.json",
+    "@type": "dcat:Catalog",
+    "dataset": [
+        {
+            "@type": "dcat:Dataset",
+            "title": "Data from: Characterization of commercial cricket protein powder and impact of cricket powder replacement on wheat dough protein composition",
+            "description": "<p>Data from publication characterizing two commercially available cricket protein powders and their impact on the molecular weight distribution when incoroporated into wheat dough.</p>\n<p><br></p>\n<p>Data collected from duplicate laboratory analysis of protein composition of cricket protein powders, wheat flour, and wheat dough mixed with cricket protein powders. Samples were analyzed using gel electrophoresis and size exclusion chromatography along with differential solubility. Samples were analyzed to determine the effect of cricket protein powder on the solubility and molecular weight of wheat flour proteins when mixed into a dough.</p>\n<p><br></p>\n<p>\u00a0</p>\n<p>Resources in this dataset:</p>\n<p><br></p>\n<ul>\n  <li>Resource Title: Readme.txt file<br>\n File Name: ReadMe.txt<br>\n Resource Description: Description of data included.<br>\n\u00a0</li>\n  <li>Resource Title: Figure 1. Size exclusion chromatographs of cricket protein powders<br>\n File Name: Figure1.JPG<br>\n Resource Description: Graph of size exclusion chromatographs of cricket protein powders<br>\n\u00a0</li>\n  <li>Resource Title: Figure 2: Size exclusion chromatographs of wheat flour and cricket protein powder fractions.<br>\n File Name: Figure2.JPG<br>\n Resource Description: Size exclusion chromatographs of soluble and \u00a0insoluble protein fractions from cricket powder and wheat flour. Both \u00a0with disulfide bonds reduced (\"reduced\") and intact (\"unreduced\").<br>\n\u00a0</li>\n  <li>Resource Title: SDS page analysis of wheat flour and cricket protein powders<br>\n File Name: Figure3.JPG<br>\n Resource Description: Photograph of an SDS-PAGE gel showing separation \u00a0of proteins extracted from wheat flour and two commercially available \u00a0cricket protein powders<br>\n\u00a0</li>\n  <li>Resource Title: Data definitions for SEC peak area data file<br>\n File Name: data definitions.txt<br>\n Resource Description: File contains abbreviation list for SEC peak area data file<br>\n\u00a0</li>\n  <li>Resource Title: SEC peak area data<br>\n File Name: SEC peak area data.csv<br>\n Resource Description: Data file of SEC peak areas<br>\n\u00a0</li>\n</ul><p></p>",
+            "modified": "2024-02-13T19:14:26",
+            "keyword": [
+                "protein",
+                "gluten",
+                "bread",
+                "cricket protein powder"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8498088.v4",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Figure3(1).JPG",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830492746",
+                    "format": "JPG",
+                    "mediaType": "image/jpeg"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Figure1.JPG",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830492748",
+                    "format": "JPG",
+                    "mediaType": "image/jpeg"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "SEC%20peak%20area%20data.csv",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830492750",
+                    "format": "csv",
+                    "mediaType": "text/plain"
+                }
+            ],
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Scott Bean",
+                "hasEmail": "mailto:scott.bean@usda.gov"
+            },
+            "temporal": "2022-11-01/2023-03-08",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "ag Data Commons",
+            "description": "<p>ag data commons</p>",
+            "modified": "2023-06-06T06:13:19",
+            "keyword": [
+                "data"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8501834.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://data.nal.usda.gov",
+                    "downloadURL": "https://data.nal.usda.gov",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Data Curators",
+                "hasEmail": "mailto:NAL-ADC-Curator@usda.gov"
+            },
+            "temporal": "2015-01-01/2015-01-01",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Metadata from: Mob and rotational grazing influence pasture biomass, nutritive value, and species composition",
+            "description": "<p>Testing:</p>\n<ul>\n  <li>Ability of curators to identify reserved DOI during review</li>\n  <li>Impact of curator changing Group during review</li>\n</ul>\n<p><br></p>\n<p>\u00a0</p>\n<p>This is digital research metadata corresponding to a published \u00a0manuscript in Agronomy Journal, \"Mob and rotational grazing influence \u00a0pasture biomass, nutritive value, and species composition\", Vol. 112 p. \u00a02866-2878. Dataset may be accessed via the included link at the Dryad \u00a0data repository.</p>\n<p>Mob grazing, which uses very high stocking densities for short \u00a0durations followed by a relatively long rest period, was designed to \u00a0mimic bison (Bison bison) grazing in western U.S. grassland. This \u00a0project assessed the suitability of mob grazing for livestock production \u00a0in the Northeast. Objectives were to compare the effects of mob and \u00a0rotational grazing on dry matter (DM) mass, nutritive value, and \u00a0botanical composition across four grazing seasons. Eight, 0.10\u2010ha \u00a0paddocks were established in 2014 as a randomized complete block with \u00a0four replications, and seeded with alfalfa (Medicago sativa L.), white \u00a0clover (Trifolium repens L.), orchardgrass (Dactylis glomerata L.), \u00a0narrowleaf plantain (Plantago lanceolata L.), and tall fescue \u00a0[Schedonorus arundinaceus (Schreb.) Dumort]. Mob\u2010grazed (MOB) paddocks \u00a0were grazed by yearling beef cattle twice each year, (70\u201390\u2013day \u00a0interval), and rotationally grazed (ROT) paddocks were grazed four to \u00a0six times each year (when sward height reached 25 cm).</p>\n<p>Methods are described in the manuscript <a href=\"https://doi.org/10.1002/agj2.20215\" target=\"_blank\">https://doi.org/10.1002/agj2.20215</a>. \u00a0Descriptions corresponding to each figure and table in the manuscript \u00a0are placed on separate tabs in the Excel file to clarify abbreviations \u00a0and summarize the data headings and units.</p>",
+            "modified": "2023-07-05T19:50:49",
+            "keyword": [
+                "forage production",
+                "range management and grazing",
+                "species mixture",
+                "mob grazing",
+                "rotational grazing"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8573118.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://doi.org/10.5061/dryad.79cnp5ht4",
+                    "downloadURL": "https://doi.org/10.5061/dryad.79cnp5ht4",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Eric Billman",
+                "hasEmail": "mailto:eric.billman@usda.gov"
+            },
+            "temporal": "2015-05-01/2018-10-18",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Metadata from: Mob and rotational grazing influence pasture biomass",
+            "description": "<p>Testing use of Metadata Record function for catalog entries</p>\n<p><br></p>\n<p>\u00a0</p>\n<p>This is digital research metadata corresponding to a published \u00a0manuscript in Agronomy Journal, \"Mob and rotational grazing influence \u00a0pasture biomass, nutritive value, and species composition\", Vol. 112 p. \u00a02866-2878. Dataset may be accessed via the included link at the Dryad \u00a0data repository.</p>\n<p>Mob grazing, which uses very high stocking densities for short \u00a0durations followed by a relatively long rest period, was designed to \u00a0mimic bison (Bison bison) grazing in western U.S. grassland. This \u00a0project assessed the suitability of mob grazing for livestock production \u00a0in the Northeast. Objectives were to compare the effects of mob and \u00a0rotational grazing on dry matter (DM) mass, nutritive value, and \u00a0botanical composition across four grazing seasons. Eight, 0.10\u2010ha \u00a0paddocks were established in 2014 as a randomized complete block with \u00a0four replications, and seeded with alfalfa (Medicago sativa L.), white \u00a0clover (Trifolium repens L.), orchardgrass (Dactylis glomerata L.), \u00a0narrowleaf plantain (Plantago lanceolata L.), and tall fescue \u00a0[Schedonorus arundinaceus (Schreb.) Dumort]. Mob\u2010grazed (MOB) paddocks \u00a0were grazed by yearling beef cattle twice each year, (70\u201390\u2013day \u00a0interval), and rotationally grazed (ROT) paddocks were grazed four to \u00a0six times each year (when sward height reached 25 cm).</p>\n<p>Methods are described in the manuscript <a href=\"https://doi.org/10.1002/agj2.20215\" target=\"_blank\">https://doi.org/10.1002/agj2.20215</a>. \u00a0Descriptions corresponding to each figure and table in the manuscript \u00a0are placed on separate tabs in the Excel file to clarify abbreviations \u00a0and summarize the data headings and units.</p>",
+            "modified": "2023-07-05T17:19:02",
+            "keyword": [
+                "forage production",
+                "range management and grazing",
+                "species mixture",
+                "mob grazing",
+                "rotational grazing"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8573210.v1",
+            "distribution": [],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Eric Billman",
+                "hasEmail": "mailto:eric.billman@usda.gov"
+            },
+            "temporal": "2015-05-01/2018-10-18",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Data from: Genetic diversity, population structure, and selection of core germplasm sets from the USDA sweetpotato (Ipomoea batatas) collection",
+            "description": "<p>R scripts and associated data used to select the sweetpotato core sets described in:<br>Slonecki, T. J., Rutter, W. B., Olukolu, B. A., Yencho, G. C., Jackson, D. M., & Wadl, P. A. (2023). Genetic diversity, population structure, and selection of breeder germplasm subsets from the USDA sweetpotato (Ipomoea batatas) collection. Frontiers in Plant Science, 13. <a href=\"https://doi.org/10.3389/fpls.2022.1022555\">https://doi.org/10.3389/fpls.2022.1022555</a></p><p>Resources in this dataset:</p><p>Title: Sweetpotato_phenotype_classification_scripts<br>File name: SP_phenotype_classification_scripts_7-29-21.R<br>Description: R Scripts used to format, classify, and retain individuals with 'rare' phenotypes into the core collections, generating the reduced 508 accession dataset from which the core sets were selected</p><p>Title: Sweetpotato_core_set_selection_scripts<br>File name: Core_set_selection_permutations_8-24-20.R<br>Description: Core set sampling scripts derived from previous R scripts and data generated in \"SP_phenotype_classification_scripts\"</p><p>Title: Original Phenotype data<br>File name: Core_Sets_VanRaden_Complete_Passport_Phenotype_July_2021.xlsx<br>Description: Phenotype data downloaded from GRIN sweetpotato collection and used for core set selection</p><p>Title: SP_core_selection_Rdata<br>File name: SP_core_selection_data_7-30-21.zip<br>Description: Data sets used in conjunction with Rscripts from Slonecki et. al. 2022</p>",
+            "modified": "2024-02-08T16:22:18",
+            "keyword": [
+                "sweet potatoes",
+                "genotype",
+                "phenotype",
+                "core germplasm set",
+                "np301",
+                "NP303"
+            ],
+            "identifier": "10.15482/USDA.ADC/1528523",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Core_set_selection_permutations_8-24-20.R",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830573428",
+                    "format": "R",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Core_Sets_VanRaden_Complete_Passport_Phenotype_July_2021.xlsx",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830573430",
+                    "format": "xlsx",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "SP_core_selection_data_7-30-21.zip",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830573432",
+                    "format": "zip",
+                    "mediaType": "application/zip"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "SP_phenotype_classification_scripts_7-29-21.R",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830573434",
+                    "format": "R",
+                    "mediaType": "text/plain"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Rutter, William",
+                "hasEmail": "mailto:William.rutter@ars.usda.gov"
+            },
+            "temporal": "2021-07-21/2021-07-21",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Point\", \"coordinates\": [-440.07165530697, 32.796163806572]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Data from: Importance of color for artificial clay caterpillars as sentinel prey in maize, soybean, and prairie",
+            "description": "<p>Data files for manuscript titled \"Importance of color for artificial clay caterpillars as sentinel prey in maize, soybean, and prairie\".</p><p>Metadata is contained within excel file that describes all variables for each tab.</p><p>Abstract from paper:<br>The use of artificial clay caterpillars to measure predation pressure under real field conditions is one method that has garnered recent support for quantifying ecosystem services that beneficial insects provide. Here, we focus on color and ask whether it is an important variable that should be considered in studies using clay caterpillars as sentinel prey. We deployed a total of 1920 brown, cream, green, gray, terracotta, and white clay caterpillars onto maize, soybean, and prairie plants to test if lighter colored caterpillars will be attacked and retrieved more than caterpillars with darker colors. As hypothesized, color was a significant predictor with green and terracotta caterpillars performing best, whereas brown and gray caterpillars performed the worst. Interestingly, clay caterpillars were also attacked proportionally to the number of insects in the surrounding habitat. Combined, we suggest artificial clay caterpillars could be useful for rapid ecosystem function assessments, but only when their color is considered.</p>",
+            "modified": "2023-08-11T02:58:50",
+            "keyword": [
+                "Agriculture",
+                "artificial prey",
+                "biological control",
+                "dummy caterpillar",
+                "lepidoptera",
+                "plasticine larvae",
+                "predation",
+                "NP304"
+            ],
+            "identifier": "10.15482/USDA.ADC/1528194",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Sentinal20-20Data%20File.xlsx",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830574378",
+                    "format": "xlsx",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Metadata_ISO_1524800.xml",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830574380",
+                    "format": "xml",
+                    "mediaType": "text/plain",
+                    "conformsTo": "http://www.isotc211.org/2005/gmd"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Roeder, Karl",
+                "hasEmail": "mailto:karl.roeder@usda.gov"
+            },
+            "temporal": "2021-06-01/2021-06-30",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "spatial": "{\"type\": \"MultiPoint\", \"coordinates\": [[-96.804, 44.353], [-97.122, 44.341], [-96.65, 44.24]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Data from: Genomic analysis of a malate decarboxylation deficient lactic acid bacterium, Lactiplantibacillus pentosus MU045",
+            "description": "<p>This is a Microsoft Excel spreadsheet containing raw absorbance data collected from PM01 and PM02A plates in an Omnilog system for Lactiplantibacillus pentosus LA0445 and MU045. Independent duplicates were run for each bacterial culture.</p><p>Resources in this dataset:</p><ul><li>Resource Title: Omnilog Phenotype Microarray Data for Lactiplantibacillus pentosus LA0445 and MU045<br>File Name: Omnilog Data for L pentosus LA0445 and MU045.xlsx</li></ul><p></p>",
+            "modified": "2024-02-08T17:02:22",
+            "keyword": [
+                "phenotype",
+                "lactobacilli",
+                "comparative",
+                "biolog",
+                "Omnilog",
+                "pentosus",
+                "NP306"
+            ],
+            "identifier": "10.15482/USDA.ADC/1529200",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Omnilog20for20pentosus20and%20MU045.xlsx",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830574382",
+                    "format": "xlsx",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "GeoData ISO Metadata",
+                    "accessURL": "https://geodata.nal.usda.gov/geonetwork/srv/api/records/d0e9a6e7-9e28-497c-a944-cb1ee892c542/formatters/xml",
+                    "format": "xml",
+                    "mediaType": "text/xml",
+                    "conformsTo": "http://www.isotc211.org/2005/gmd"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Perez-Diaz, Ilenys",
+                "hasEmail": "mailto:Ilenys.Perez-Diaz@usda.gov"
+            },
+            "temporal": "2023-05-01/2023-06-22",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-78.678181171417, 35.784235498799], [-78.677580356598, 35.783965689928], [-78.677859306335, 35.7835305124], [-78.678449392319, 35.783791619203]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Alfalfa (Medicago sativa L.) cultivars mean annual forage yield (US Ton ac-1) from Northeast USA and Ontario (Canada) from 1995 to 2013",
+            "description": "<p>Database of forage yield for 679 alfalfa cultivars from 1060 public trials conducted between 1995 and 2013, comprising 86 locations in 11 US states (Iowa, Illinois, Indiana, Kansas, Michigan, Minnesota, Nebraska, New York, Ohio, Pennsylvania, and Wisconsin) and one Canadian province (Ontario). Includes 28,070 observations, with an observation defined as a cultivar total annual forage yield mean across three to eight replicates per trial-year. Dataset includes Years 1 (establishment year) through 4 to 6 (depending on location and year). </p><p><br></p><p>Data was compiled by Prof. Dan Undersander at University of Wisconsin - Madison. Data was generated by forage researchers at each institution. For details on how the data was generated (plot size, management, number of replicates, etc.) see publications from each individual institution. </p><p><br></p><p>More information about the individual alfalfa breeding programs can be found at their program web sites:</p><p><br></p><p>University of Wisconsin \u2013 Madison: https://fyi.extension.wisc.edu/forages/forage-variety-trial-results/</p><p>University of Minnesota: https://www.maes.umn.edu/publications/field-crop-trials/alfalfa</p><p>Iowa State University:  https://lib.dr.iastate.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=2854&context=farms_reports </p><p>Purdue University: https://www.agry.purdue.edu/ext/forages/variety.htm </p><p>Cornell University: https://plbrgen.cals.cornell.edu/research-extension/forage-project/ny-forage-yield-results/ </p><p>Ohio State University: https://www.oardc.ohio-state.edu/forage2018/</p><p>Univ of Illinois: http://vt.cropsci.illinois.edu/forage.html</p><p>Kansas State University: https://www.agronomy.k-state.edu/services/crop-performance-tests/alfalfa/index.html</p><p>Michigan State University: https://forage.msu.edu/publications/</p><p>Univ of Nebraska: https://cropwatch.unl.edu/forages/varietygenetics </p><p>Penn State Univ: https://extension.psu.edu/forage-variety-trials-reports</p><p>Ontario Canda: https://www.plant.uoguelph.ca/forages/goforages-forage-variety-trials</p><p><br></p><p></p><p>Resources in this dataset:</p><ul><li><p>Resource Title: Alfalfa (Medicago sativa L.) cultivars mean annual forage yield (US Ton ac-1) from Northeast USA and Ontario (Canada) from 1995 to 2013.</p> <p>File Name: ALFALFA-NAL.xlsx</p></li><br><li><p>Resource Title: Alfalfa (Medicago sativa L.) cultivars mean annual forage yield (US Ton ac-1) from Northeast USA and Ontario (Canada) from 1995 to 2013 Data Dictionary.</p> <p>File Name: ALFALFA-NAL-DataDictionary.csv</p></li><br><li><p>Resource Title: DATA.</p> <p>File Name: DATA.csv</p></li><br><li><p>Resource Title: TRIALS.</p> <p>File Name: TRIALS.csv</p></li></ul><p></p>",
+            "modified": "2023-08-17T16:02:09",
+            "keyword": [
+                "cultivars"
+            ],
+            "identifier": "10.15482/USDA.ADC/1504130",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://data.nal.usda.gov/node/22927",
+                    "downloadURL": "https://data.nal.usda.gov/node/22927",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Picasso, Valentin D.",
+                "hasEmail": "mailto:picassorisso@wisc.edu"
+            },
+            "temporal": "2015-08-20/2022-07-15",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"MultiPolygon\", \"coordinates\": [[[[-101.90605, 40.001626], [-95.306337, 40.001626], [-95.207752, 39.908518], [-94.884612, 39.831841], [-95.109167, 39.541563], [-94.983197, 39.442978], [-94.824366, 39.20747], [-94.610765, 39.158177], [-94.616242, 37.000263], [-100.087706, 37.000263], [-102.042974, 36.994786], [-102.053927, 40.001626], [-101.90605, 40.001626]]], [[[[-83.454238, 41.732339], [-84.807042, 41.694001], [-84.807042, 41.759724], [-85.990061, 41.759724], [-86.822556, 41.759724], [-86.619909, 41.891171], [-86.482986, 42.115725], [-86.357016, 42.252649], [-86.263908, 42.444341], [-86.209139, 42.718189], [-86.231047, 43.013943], [-86.526801, 43.594499], [-86.433693, 43.813577], [-86.499417, 44.07647], [-86.269385, 44.34484], [-86.220093, 44.569394], [-86.252954, 44.689887], [-86.088646, 44.73918], [-86.066738, 44.903488], [-85.809322, 44.947303], [-85.612152, 45.128042], [-85.628583, 44.766564], [-85.524521, 44.750133], [-85.393075, 44.930872], [-85.387598, 45.237581], [-85.305444, 45.314258], [-85.031597, 45.363551], [-85.119228, 45.577151], [-84.938489, 45.75789], [-84.713934, 45.768844], [-84.461995, 45.653829], [-84.215533, 45.637398], [-84.09504, 45.494997], [-83.908824, 45.484043], [-83.596638, 45.352597], [-83.4871, 45.358074], [-83.317314, 45.144473], [-83.454238, 45.029457], [-83.322791, 44.88158], [-83.273499, 44.711795], [-83.333745, 44.339363], [-83.536392, 44.246255], [-83.585684, 44.054562], [-83.82667, 43.988839], [-83.958116, 43.758807], [-83.908824, 43.671176], [-83.667839, 43.589022], [-83.481623, 43.714992], [-83.262545, 43.972408], [-82.917498, 44.070993], [-82.747713, 43.994316], [-82.643651, 43.851915], [-82.539589, 43.435668], [-82.523158, 43.227544], [-82.413619, 42.975605], [-82.517681, 42.614127], [-82.681989, 42.559357], [-82.687466, 42.690804], [-82.797005, 42.652465], [-82.922975, 42.351234], [-83.125621, 42.236218], [-83.185868, 42.006186], [-83.437807, 41.814493], [-83.454238, 41.732339]]], [[[-85.508091, 45.730506], [-85.49166, 45.610013], [-85.623106, 45.588105], [-85.568337, 45.75789], [-85.508091, 45.730506]]], [[[-87.589328, 45.095181], [-87.742682, 45.199243], [-87.649574, 45.341643], [-87.885083, 45.363551], [-87.791975, 45.500474], [-87.781021, 45.675736], [-87.989145, 45.796229], [-88.10416, 45.922199], [-88.531362, 46.020784], [-88.662808, 45.987922], [-89.09001, 46.135799], [-90.119674, 46.338446], [-90.229213, 46.508231], [-90.415429, 46.568478], [-90.026566, 46.672539], [-89.851304, 46.793032], [-89.413149, 46.842325], [-89.128348, 46.990202], [-88.996902, 46.995679], [-88.887363, 47.099741], [-88.575177, 47.247618], [-88.416346, 47.373588], [-88.180837, 47.455742], [-87.956283, 47.384542], [-88.350623, 47.077833], [-88.443731, 46.973771], [-88.438254, 46.787555], [-88.246561, 46.929956], [-87.901513, 46.908048], [-87.633143, 46.809463], [-87.392158, 46.535616], [-87.260711, 46.486323], [-87.008772, 46.530139], [-86.948526, 46.469893], [-86.696587, 46.437031], [-86.159846, 46.667063], [-85.880522, 46.68897], [-85.508091, 46.678016], [-85.256151, 46.754694], [-85.064458, 46.760171], [-85.02612, 46.480847], [-84.82895, 46.442508], [-84.63178, 46.486323], [-84.549626, 46.4206], [-84.418179, 46.502754], [-84.127902, 46.530139], [-84.122425, 46.179615], [-83.990978, 46.031737], [-83.793808, 45.993399], [-83.7719, 46.091984], [-83.580208, 46.091984], [-83.476146, 45.987922], [-83.563777, 45.911245], [-84.111471, 45.976968], [-84.374364, 45.933153], [-84.659165, 46.053645], [-84.741319, 45.944106], [-84.70298, 45.850998], [-84.82895, 45.872906], [-85.015166, 46.00983], [-85.338305, 46.091984], [-85.502614, 46.097461], [-85.661445, 45.966014], [-85.924338, 45.933153], [-86.209139, 45.960537], [-86.324155, 45.905768], [-86.351539, 45.796229], [-86.663725, 45.703121], [-86.647294, 45.834568], [-86.784218, 45.861952], [-86.838987, 45.725029], [-87.069019, 45.719552], [-87.17308, 45.659305], [-87.326435, 45.423797], [-87.611236, 45.122565], [-87.589328, 45.095181]]], [[[-88.805209, 47.976051], [-89.057148, 47.850082], [-89.188594, 47.833651], [-89.177641, 47.937713], [-88.547792, 48.173221], [-88.668285, 48.008913], [-88.805209, 47.976051]]]], [[[-92.014696, 46.705401], [-92.091373, 46.749217], [-92.29402, 46.667063], [-92.29402, 46.075553], [-92.354266, 46.015307], [-92.639067, 45.933153], [-92.869098, 45.719552], [-92.885529, 45.577151], [-92.770513, 45.566198], [-92.644544, 45.440228], [-92.75956, 45.286874], [-92.737652, 45.117088], [-92.808852, 44.750133], [-92.545959, 44.569394], [-92.337835, 44.552964], [-92.233773, 44.443425], [-91.927065, 44.333886], [-91.877772, 44.202439], [-91.592971, 44.032654], [-91.43414, 43.994316], [-91.242447, 43.775238], [-91.269832, 43.616407], [-91.215062, 43.501391], [-91.368417, 43.501391], [-96.451017, 43.501391], [-96.451017, 45.297827], [-96.681049, 45.412843], [-96.856311, 45.604536], [-96.582464, 45.818137], [-96.560556, 45.933153], [-96.598895, 46.332969], [-96.719387, 46.437031], [-96.801542, 46.656109], [-96.785111, 46.924479], [-96.823449, 46.968294], [-96.856311, 47.609096], [-97.053481, 47.948667], [-97.130158, 48.140359], [-97.16302, 48.545653], [-97.097296, 48.682577], [-97.228743, 49.000239], [-95.152983, 49.000239], [-95.152983, 49.383625], [-94.955813, 49.372671], [-94.824366, 49.295994], [-94.69292, 48.775685], [-94.588858, 48.715438], [-94.260241, 48.699007], [-94.221903, 48.649715], [-93.838517, 48.627807], [-93.794701, 48.518268], [-93.466085, 48.545653], [-93.466085, 48.589469], [-93.208669, 48.644238], [-92.984114, 48.62233], [-92.726698, 48.540176], [-92.655498, 48.436114], [-92.50762, 48.447068], [-92.370697, 48.222514], [-92.304974, 48.315622], [-92.053034, 48.359437], [-92.009219, 48.266329], [-91.713464, 48.200606], [-91.713464, 48.112975], [-91.565587, 48.041775], [-91.264355, 48.080113], [-91.083616, 48.178698], [-90.837154, 48.238944], [-90.749522, 48.091067], [-90.579737, 48.123929], [-90.377091, 48.091067], [-90.141582, 48.112975], [-89.873212, 47.987005], [-89.615796, 48.008913], [-89.637704, 47.954144], [-89.971797, 47.828174], [-90.437337, 47.729589], [-90.738569, 47.625527], [-91.171247, 47.368111], [-91.357463, 47.20928], [-91.642264, 47.028541], [-92.091373, 46.787555], [-92.014696, 46.705401]]], [[[-90.415429, 46.568478], [-90.229213, 46.508231], [-90.119674, 46.338446], [-89.09001, 46.135799], [-88.662808, 45.987922], [-88.531362, 46.020784], [-88.10416, 45.922199], [-87.989145, 45.796229], [-87.781021, 45.675736], [-87.791975, 45.500474], [-87.885083, 45.363551], [-87.649574, 45.341643], [-87.742682, 45.199243], [-87.589328, 45.095181], [-87.627666, 44.974688], [-87.819359, 44.95278], [-87.983668, 44.722749], [-88.043914, 44.563917], [-87.928898, 44.536533], [-87.775544, 44.640595], [-87.611236, 44.837764], [-87.403112, 44.914442], [-87.238804, 45.166381], [-87.03068, 45.22115], [-87.047111, 45.089704], [-87.189511, 44.969211], [-87.468835, 44.552964], [-87.545512, 44.322932], [-87.540035, 44.158624], [-87.644097, 44.103854], [-87.737205, 43.8793], [-87.704344, 43.687607], [-87.791975, 43.561637], [-87.912467, 43.249452], [-87.885083, 43.002989], [-87.76459, 42.783912], [-87.802929, 42.493634], [-88.788778, 42.493634], [-90.639984, 42.510065], [-90.711184, 42.636034], [-91.067185, 42.75105], [-91.143862, 42.909881], [-91.176724, 43.134436], [-91.056231, 43.254929], [-91.204109, 43.353514], [-91.215062, 43.501391], [-91.269832, 43.616407], [-91.242447, 43.775238], [-91.43414, 43.994316], [-91.592971, 44.032654], [-91.877772, 44.202439], [-91.927065, 44.333886], [-92.233773, 44.443425], [-92.337835, 44.552964], [-92.545959, 44.569394], [-92.808852, 44.750133], [-92.737652, 45.117088], [-92.75956, 45.286874], [-92.644544, 45.440228], [-92.770513, 45.566198], [-92.885529, 45.577151], [-92.869098, 45.719552], [-92.639067, 45.933153], [-92.354266, 46.015307], [-92.29402, 46.075553], [-92.29402, 46.667063], [-92.091373, 46.749217], [-92.014696, 46.705401], [-91.790141, 46.694447], [-91.09457, 46.864232], [-90.837154, 46.95734], [-90.749522, 46.88614], [-90.886446, 46.754694], [-90.55783, 46.584908], [-90.415429, 46.568478]]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Data to explore circular manureshed management in beef supply chains of the United States and western Canada",
+            "description": "Circular management of beef supply chains holds great promise for improving sustainability from grazing agroecosystem to dinner plate. In the United States and Canada, one approach to circularity entails transporting manure nutrients from cattle produced in feedlots back to the grazing agroecosystems where they originated to enrich haylands for further grazing cattle production. We provide data to assess this strategy centered around three grazing agroecosystems: Florida, New Mexico, and the provincial assemblage of Manitoba, Saskatchewan, Alberta, British Columbia. We describe four datasets that can be used to estimate the potential nutrient utilization of hay fed to grazing cattle in the three grazing agroecosystems and the magnitudes of feedlot manure nutrients available for transport back to them. We found that although biogeography and management differ among the three grazing agroecosystems, the hay allocated for grazing cattle represented approximately 65% of the total harvested hay produced per agroecosystem after accounting for harvest losses, and that on average all three areas exported about 450,000 cattle annually for feedlot, pasture, and slaughter to states across the US. Although we highlight only three grazingland settings, our approach relies on methods that could ultimately be scaled nationally and internationally, with applicability to other animal industries for which circular management is an aspiration for sustainability outcomes.",
+            "modified": "2023-10-21T21:17:44",
+            "keyword": [
+                "crop-livestock integration",
+                "manureshed",
+                "LTAR",
+                "animal production",
+                "supply chain management",
+                "sustainable agricultural intensification",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/6025924b89e313f25bddf1912c8ab07d",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200021001",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200021001",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "2010-01-01/2019-12-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"MultiPolygon\", \"coordinates\": [[[[-138.955644, 60.127206], [-138.955644, 49.132942], [-88.297815, 49.132942], [-88.297815, 60.127206], [-138.955644, 60.127206]]], [[[-109.05017, 37.000232], [-109.05017, 31.332301], [-103.001964, 31.332301], [-103.001964, 37.000232], [-109.05017, 37.000232]]], [[[-87.634938, 31.000888], [-87.634938, 24.523096], [-80.031312, 24.523096], [-80.031312, 31.000888], [-87.634938, 31.000888]]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Baseline survey for beef cattle producers in the Southwest and Southern Plains",
+            "description": "This data package includes survey questions from beef cattle producers collectively operating in at least 31 counties in at least 7 states (California, Illinois, Missouri, Nebraska, New Mexico, Oklahoma, Texas) - \"at least\" because there were some respondents who chose not to provide the location of their operation. Responses were collected between January 22, 2020 and May 31, 2021. Most of the surveys were administered in person at the 2020 Southwest Beef Symposium in Amarillo, TX. The survey was also placed online and an additional few responses were collected through the online survey. These data represent a sample of convenience as no formal sampling scheme was employed in soliciting responses. Survey responses are summarized in the publication, Snapshot of Rancher Perspectives on Creative Cattle Management Options (Elias et. al, 2020).The purpose of gathering these data was to learn more about the characteristics of beef cattle producers in the region and to gauge producer interest in precision livestock ranching technologies and heritage cattle \u2013 both strategies being researched by the Sustainable Southwest Beef Project to support sustainability of ranching operations in the Southwest and Southern Plains regions of the US.",
+            "modified": "2023-10-21T21:17:51",
+            "keyword": [
+                "heritage cattle",
+                "LTAR",
+                "beef cattle",
+                "cattle production",
+                "precision agriculture",
+                "ranchers",
+                "ranching",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/7d61e257d0ad7ebd00db2b4c38cc8145",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200029001",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200029001",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "2020-01-22/2021-05-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-124.392638, 43.003062], [-124.392638, 25.845557], [-87.507909, 25.845557], [-87.507909, 43.003062], [-124.392638, 43.003062]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Manure Cycling Interview Data",
+            "description": "Exploring the potential for nutrient circularity in the beef production system requires an understanding of current practices. Manure nutrients produced in feedlots are an ample source of fertilizer for phosphorus deficient crop and hay lands. However, it is unclear how far manure nutrients are travelling from feedlots, what crops they\u2019re being applied to, and whether those grains are in turn integrated into the feedlot operations. The purpose of these interviews was to ascertain the above information from feedlot managers. In addition, we sought contextual information (provenance of cattle, cattle weights/ages, manure treatment, regulations/guidelines, processing facility destination, barriers, suggestions for improvements). To answer our question about potential manure nutrient circularity, we focused and report here the elements pertaining to feed/grain provenance, crops manure was applied to, and export distance for manure.",
+            "modified": "2023-10-21T21:18:04",
+            "keyword": [
+                "crop-livestock integration",
+                "manureshed",
+                "LTAR",
+                "animal production",
+                "supply chain management",
+                "sustainable agricultural intensification",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/d6adbc29d37e569e053ac74a8e14d582",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200045001",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200045001",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "2020-07-03/2020-12-02",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"MultiPolygon\", \"coordinates\": [[[[-120.763527, 47.459593], [-120.763527, 47.459593], [-120.763527, 47.459593], [-120.763527, 47.459593], [-120.763527, 47.459593]]], [[[-99.106774, 31.983975], [-99.106774, 31.983975], [-99.106774, 31.983975], [-99.106774, 31.983975], [-99.106774, 31.983975]]], [[[-97.617506, 35.595373], [-97.617506, 35.595373], [-97.617506, 35.595373], [-97.617506, 35.595373], [-97.617506, 35.595373]]], [[[-99.929343, 41.777959], [-99.929343, 41.777959], [-99.929343, 41.777959], [-99.929343, 41.777959], [-99.929343, 41.777959]]], [[[-98.703632, 38.733528], [-98.703632, 38.733528], [-98.703632, 38.733528], [-98.703632, 38.733528], [-98.703632, 38.733528]]], [[[-114.537804, 44.22819], [-114.537804, 44.22819], [-114.537804, 44.22819], [-114.537804, 44.22819], [-114.537804, 44.22819]]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Grass-fed beef producers and retailers map",
+            "description": "This data package includes two shapefiles and their associated attribute tables. The two files, GFB_producers_2021-02-18.zip and GFB_retailers_2021-02-18.zip, contain all internet-discoverable (at the time of data collection, July-August 2020; with minor edits/additions circa June 2022) grass-fed beef producers and retailers in the Southwest and Southern Plains of the U.S. (Arizona, California, Colorado, Kansas, Nevada, New Mexico, Oklahoma, Texas, Utah), compiled through an internet search. The data were initially collected in August of 2020 using publicly available information from Google search engine and Google map searches with the intention of informing members of the Sustainable Southwest Beef Project (USDA NIFA grant #2019-69012-29853) team about existing grass-fed beef producers and retailers in the study area.",
+            "modified": "2023-10-21T21:17:57",
+            "keyword": [
+                "beef retailers",
+                "grass-fed beef",
+                "LTAR",
+                "Southern Plains States of USA",
+                "Southwestern United States",
+                "beef production",
+                "global positioning systems",
+                "grass-fed livestock",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/3eea3acd4e873b8514d8261a4d69f0ee",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200030002",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200030002",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "2020-07-01/2020-08-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-122.842238, 41.441859], [-122.842238, 26.154626], [-94.619528, 26.154626], [-94.619528, 41.441859], [-122.842238, 41.441859]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Map of ecological sites and ecological states for the USDA Jornada Experimental Range",
+            "description": "This data package includes an ArcMap geodatabase: a polygon feature class, associated attribute table and metadata. The spatial data, JERStateMap_v1.gdb.zip, represents the ecological sites and states on the Jornada Experimental Range. The attribute table for the spatial data, JERStateMap.csv, and a summary of the spatial metadata, JERStateMapMetadata.pdf, are also included.",
+            "modified": "2023-10-21T21:18:12",
+            "keyword": [
+                "plant communities",
+                "vegetation dynamics",
+                "Jornada Experimental Range",
+                "SSURGO soil map unit",
+                "ecological site",
+                "ecological state",
+                "state mapping",
+                "state-and-transition model (STM)",
+                "LTER",
+                "LTAR",
+                "ecological site descriptions (ESD)",
+                "soil surveys",
+                "vegetation maps",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/ad172f22b0abb8fad0998e34bca1b3b6",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200047001",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200047001",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "2014-01-01/2021-03-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.868125, 32.778734], [-106.868125, 32.473162], [-106.592781, 32.473162], [-106.592781, 32.778734], [-106.868125, 32.778734]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Map of ecological sites and ecological states for pastures 1, 4, 14, and 15 on the Chihuahuan Desert Rangeland Research Center, New Mexico",
+            "description": "This data package includes an ArcMap geodatabase for the Chihuahuan Desert Rangeland Research Center (CDRRC) pastures 1, 4, 14, and 15: one polygon feature class, one point feature class, associated attribute tables and metadata. The spatial data, CDRRC1_4_14_15_StateMap_v1.gdb.zip, represents the ecological sites and states on Pastures 1, 4, 14 and 15 on the Chihuahuan Desert Rangeland Research Center, and includes field traverse data. CDRRC1_4_14_15_StateMapMetadata.pdf and TraversePointsMetadata.pdf contain the geospatial metadata provided by ArcMap. CDRRC1_4_14_15_StateMap_v1.csv is the attribute table associated with the state map\u2019s polygon feature class, and TraversePoints.xlsx is the attribute table associated with the traverse points feature class and includes a sheet containing detailed attribute metadata.",
+            "modified": "2023-10-21T21:18:18",
+            "keyword": [
+                "plant communities",
+                "vegetation dynamics",
+                "Chihuahuan Desert Rangeland Research Center",
+                "Jornada Experimental Range",
+                "SSURGO soil map unit",
+                "ecological site",
+                "ecological state",
+                "state mapping",
+                "state-and-transition model (STM)",
+                "LTER",
+                "LTAR",
+                "ecological site descriptions (ESD)",
+                "soil surveys",
+                "vegetation maps",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/682d05ab0527759cce23189843dd569f",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200048001",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=200048001",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "2018-03-01/2018-06-30",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.9475817, 32.60714248], [-106.9475817, 32.52432967], [-106.8089011, 32.52432967], [-106.8089011, 32.60714248], [-106.9475817, 32.60714248]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Seasonal aboveground plant biomass estimates at 15 net primary production (NPP) study sites at Jornada Basin LTER from 1989-ongoing",
+            "description": "This data package contains aboveground vegetation cover, volume, and calculated biomass values at the 15 Net Primary Production (NPP) study sites on Jornada Experimental Range (JER) and Chihuahuan Desert Rangeland Research Center (CDRRC) lands. Sites were selected to represent the 5 major ecosystem types in the Chihuahuan Desert (upland grasslands, playa grasslands, mesquite-dominated shrublands, creosotebush-dominated shrublands, tarbush-dominated shrublands). For each ecosystem type, three sites were selected to represent the range in variability in production and plant diversity; thus the locations are not replicates. All sites are excluded from domestic grazing. Eleven sites are in non-grazed pastures, and at the other four sites 1 hectare areas around the observational plots were fenced in 1988. At all sites a grid of 49 (48 at one playa location) 1m x 1m replicate quadrats was laid out when sampling began in 1989. For each quadrat, aboveground biomass has been calculated from two data sources: 1) non-destructive horizontal cover and vertical height measurements of individual plants, or plant parts, within each quadrat, and 2) linear regression coefficients for each plant species derived from off-quadrat cover, height, and harvested biomass measurements. Non-destructive measurements (1) are taken during winter, spring, and fall measurement campaigns, then aggregated by species for each quadrat, and resulting dimensions are used to calculate species biomass (grams) by quadrat and season using using the species-specific regression coefficients derived from dataset 2. This is the most detailed biomass dataset available and can be used to derive values of net primary production between seasons or annually. Each dataset record contains calculated biomass (and related variables) by species, quadrat, season, and site. Data collection is ongoing with new observations in spring, fall, and winter of each year, but this data package may be updated less frequently.Attention:1) For most species, these data are not appropriate for estimates of percentage cover or volume because of the way the data are collected. 2) Calculated values in this data package have changed over time as the methodology for estimating biomass has changed. If you are updating or adding to an earlier analysis of these data we recommend consulting with the dataset authors or a Jornada data manager. 3) Relating long-term NPP derived from this package with long-term precipitation is problematic given the importance of wet and dry periods and their effect on production in these ecosystems. 4) Data from 2013 and later are currently in provisional status and subject to change as we review the allometric equations used for estimating biomass.See Notes in the methods element for further details.",
+            "modified": "2023-10-21T21:18:32",
+            "keyword": [
+                "populations",
+                "primary production",
+                "aboveground production",
+                "deserts",
+                "net primary production",
+                "vegetation",
+                "ongoing",
+                "NPP study",
+                "study 011",
+                "C-CALI",
+                "C-GRAV",
+                "C-SAND",
+                "G-BASN",
+                "G-IBPE",
+                "G-SUMM",
+                "M-NORT",
+                "M-RABB",
+                "M-WELL",
+                "NPP locations",
+                "P-COLL",
+                "P-SMAL",
+                "P-TOBO",
+                "T-EAST",
+                "T-TAYL",
+                "T-WEST",
+                "LTAR",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/5507ade25993c2123e1886a545b509c8",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210011001",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210011001",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "1989-05-01/2022-10-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.865, 32.669], [-106.865, 32.488], [-106.713, 32.488], [-106.713, 32.669], [-106.865, 32.669]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Annual mean estimates of aboveground net primary production (NPP) at 15 sites at Jornada Basin LTER, 1989-ongoing",
+            "description": "This package contains values of mean annual aboveground net primary production (NPP, in grams per square meter per year) at 15 NPP study sites on Jornada Experimental Range (JER) and Chihuahuan Desert Rangeland Research Center (CDRRC) lands. Sites were selected to represent the 5 major ecosystem types in the Chihuahuan Desert (upland grasslands, playa grasslands, mesquite-dominated shrublands, creosotebush-dominated shrublands, tarbush-dominated shrublands). For each ecosystem type, three sites were selected to represent the range in variability in production and plant diversity; thus the locations are not replicates. All sites are excluded from domestic grazing. Eleven sites are in non-grazed pastures, and at the other four sites 1 hectare areas around the observational plots were fenced in 1988. At all sites a grid of 49 (48 at one playa location) 1m x 1m replicate quadrats was laid out when sampling began in 1989. In fall, winter, and spring periods aboveground biomass was calculated for each species and quadrat at each NPP site. These calculations rely on two data sources: 1) non-destructive horizontal cover and vertical height measurements of individual plants, or plant parts, within each quadrat, and 2) linear regression coefficients for each plant species derived from off-quadrat cover, height, and harvested biomass measurements. NPP is then calculated as the positive biomass increment between seasons. The annual totals in this dataset are derived by summing mean site NPP values for winter (October - February), spring (February - May), and fall (May - October) increments for a single calendar year. Data collection is ongoing with new annual NPP values calculated after the conclusion of each growing season.Attention:1) Calculated values in this data package have changed over time as the methodology for estimating biomass has changed. If you are updating or adding to an earlier analysis of these data we recommend consulting with the dataset authors or a Jornada data manager. 2) Relating long-term NPP in this package with long-term precipitation is problematic given the importance of wet and dry periods and their effect on production in these ecosystems. 3) Data from 2013 and later are currently in provisional status and subject to change as we review the allometric equations used for estimating biomass.See Notes in the methods element for further details.",
+            "modified": "2023-10-21T21:18:40",
+            "keyword": [
+                "populations",
+                "primary production",
+                "aboveground production",
+                "deserts",
+                "net primary production",
+                "vegetation",
+                "ongoing",
+                "NPP study",
+                "study 011",
+                "C-CALI",
+                "C-GRAV",
+                "C-SAND",
+                "G-BASN",
+                "G-IBPE",
+                "G-SUMM",
+                "M-NORT",
+                "M-RABB",
+                "M-WELL",
+                "NPP locations",
+                "P-COLL",
+                "P-SMAL",
+                "P-TOBO",
+                "T-EAST",
+                "T-TAYL",
+                "T-WEST",
+                "LTAR",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/70d2a2b922bd629b72cf7271bb7704b1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210011003",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210011003",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "1990-01-01/2022-12-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.865, 32.669], [-106.865, 32.488], [-106.713, 32.488], [-106.713, 32.669], [-106.865, 32.669]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Soil Particle Size Analysis at Permanent Quadrat locations, Jornada Experimental Range, 2001-2020",
+            "description": "This completed dataset, from samples collected in 2001 and 2020, contains soil particle size analysis (PSA) and sand fractionation data from soil cores collected at 117 quadrat locations that are part of the Jornada Experimental Range's long-term Permanent Quadrats study. The goal of this effort was to help characterize plant-scale factors related to vegetation dynamics observed in the Permanent Quadrats. At each quadrat location, 4 cores were collected at 2 depths (0-5cm and 5-20cm) and assessed for percent sand, silt and clay. The sand fraction, if large enough, was then separated into 5 sand size classes (53-106 micrometers, 106-250 micrometers, 250-500 micrometers, 500-1000 micrometers, 1000-2000 micrometers) to measure the percent fraction of each. Long term vegetation data from this study are available in data packages knb-lter-jrn.210351001 and knb-lter-jrn.210351002.",
+            "modified": "2023-10-21T21:19:47",
+            "keyword": [
+                "JER",
+                "Permanent Quadrats",
+                "Study 351",
+                "Climate, Soils, and Atmosphere",
+                "desertification",
+                "sand",
+                "soil",
+                "soil properties",
+                "soil texture",
+                "substrates",
+                "Disturbance",
+                "Land Use and Land Cover Change",
+                "arid grasslands",
+                "clay",
+                "LTAR",
+                "silt",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/a76529e2f82460c3f3cfa5d7b5f038eb",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210351003",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210351003",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "2001-01-01/2020-02-07",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.926435, 32.737108], [-106.926435, 32.466879], [-106.528942, 32.466879], [-106.528942, 32.737108], [-106.926435, 32.737108]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Quadrat-based monitoring of desert grassland vegetation at the Jornada Experimental Range, New Mexico, 1915-2016",
+            "description": "The data set covers a 101-year period (1915-2016) of quadrat-based plant sampling at the Jornada Experimental Range in southern New Mexico. At each sampling event, a pantograph was used to record the location and perimeter of living plants within permanent quadrats. Basal area was recorded for perennial grass species, canopy cover area was recorded for shrub species, and all other perennial species were recorded as point data. The data set includes 122 1m by 1m permanent quadrats, although not all quadrats were sampled in each year of the study and there is a gap in monitoring from 1980-1995. These data provide a unique opportunity to investigate changes in the plant community over 100 years of variation in precipitation and other environmental conditions. We provide the following data and data formats: (1) the digitized maps in shapefile format; (2) data table containing coordinates (x,y) of perennial species within quadrats, including cover area for grasses and shrubs; (3) data table of counts of annual plant individuals per quadrat; (4) species list indicating growth form and habit of recorded species; (5) table of dates when each quadrat was sampled; (6) table of the pasture each quadrat was located within (note that pasture boundaries have changed over time). Additional data to help characterize plant-scale factors related to vegetation dynamics at the quadrat locations are: (7) data table of depth to caliche layer; (8) data table of soil particle size analysis and sand fractionation; and (9) data table of local and patch topography. This data package was created to support a specific data paper. Data are also available in data packages knb-lter-jrn.210351001, knb-lter-jrn.210351002, and knb-lter-jrn.210351003. Pantograph sampling is currently conducted at 5 year intervals by USDA-ARS staff, and new data will be added to those data packages periodically.",
+            "modified": "2023-10-21T21:19:55",
+            "keyword": [
+                "JER",
+                "Permanent Quadrats",
+                "Study 351",
+                "Climate, Soils, and Atmosphere",
+                "desertification",
+                "sand",
+                "soil",
+                "soil properties",
+                "soil texture",
+                "substrates",
+                "grassland",
+                "shrubs",
+                "plant cover",
+                "basal area",
+                "populations",
+                "long term monitoring",
+                "plant community",
+                "Disturbance",
+                "Land Use and Land Cover Change",
+                "arid grasslands",
+                "clay",
+                "LTAR",
+                "silt",
+                "quadrat",
+                "rangeland",
+                "Chihuahuan Desert",
+                "plant populations",
+                "long-term research",
+                "New Mexico",
+                "particle size analysis",
+                "sand fractionation",
+                "Jornada Experimental Range",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/cf6b1f5845078fbbf82053bb3594faef",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210351004",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210351004",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "1915-06-04/2020-02-07",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.926435, 32.737108], [-106.926435, 32.466879], [-106.528942, 32.466879], [-106.528942, 32.737108], [-106.926435, 32.737108]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Locally verified daily temperature and precipitation data from a NOAA weather station at USDA Jornada Experimental Range headquarters, southern New Mexico USA, 1914-2006",
+            "description": "This data package contains locally verified daily meteorological observations from a NOAA National Weather Service station located at the USDA Jornada Experimental Range headquarters in southern New Mexico, USA. Daily data has been collected there by USDA staff since 1914 for minimum and maximum air temperature and daily accumulated precipitation using standard U.S. climatological service instrumentation and procedures. The included data were verified and transcribed directly from the original paper data sheets and have undergone quality control and assurance procedures different than those in place at NOAA. These data therefore differ from those directly downloadable from NOAA servers. Local verification and transcription of observations from the data sheets ceased in 2006 and data are now directly entered to the NOAA system. Therefore, this dataset is complete and will no longer be added to.All observations from this weather station have also undergone NOAA QA/QC procedures and those data are available by accessing the Jornada Experimental Range, NM US GHCN station through the National Climatic Data Center portal (https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00294426/detail - daily and monthly data are available).",
+            "modified": "2023-10-21T21:20:09",
+            "keyword": [
+                "Disturbance",
+                "air temperature",
+                "atmospheric processes",
+                "climate",
+                "deserts",
+                "hydrologic processes",
+                "long term",
+                "maximum temperature",
+                "meteorology",
+                "minimum temperature",
+                "precipitation",
+                "rain",
+                "temperature",
+                "LTAR",
+                "NOAA",
+                "NWS",
+                "daily",
+                "weather station",
+                "USDA",
+                "long-term",
+                "study 379",
+                "HQ",
+                "JER",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/185846a59ca4674b680357a4f5b71903",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210379001",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210379001",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "1914-06-01/2006-12-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.740997, 32.617001], [-106.740997, 32.617001], [-106.740997, 32.617001], [-106.740997, 32.617001], [-106.740997, 32.617001]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Locally verified monthly summary temperature and precipitation data from a NOAA weather station at USDA Jornada Experimental Range headquarters, southern New Mexico USA, 1914-1998",
+            "description": "This data package contains locally verified monthly meteorological observations from a NOAA National Weather Service station located at the USDA Jornada Experimental Range headquarters in southern New Mexico, USA. Monthly summary data (based on daily observations) has been collected there by USDA staff since 1914 for minimum and maximum air temperature and daily accumulated precipitation using standard U.S. climatological service instrumentation and procedures. The included data were verified and transcribed directly from the original paper data sheets and have undergone quality control and assurance procedures different than those in place at NOAA. These data therefore differ from those directly downloadable from NOAA servers. Local verification and transcription of observations from the data sheets ceased in 1998 and data are now directly entered to the NOAA system. Therefore, this dataset is complete and will no longer be added to.All observations from this weather station have also undergone NOAA QA/QC procedures and those data are available by accessing the Jornada Experimental Range, NM US GHCN station through the National Climatic Data Center portal https://www.ncdc.noaa.gov/cdo-web/datasets/GSOM/stations/GHCND:USC00294426/detail - daily and monthly data are available).",
+            "modified": "2023-10-21T21:20:16",
+            "keyword": [
+                "Disturbance",
+                "air temperature",
+                "atmospheric processes",
+                "climate",
+                "deserts",
+                "hydrologic processes",
+                "long term",
+                "maximum temperature",
+                "meteorology",
+                "minimum temperature",
+                "precipitation",
+                "rain",
+                "temperature",
+                "LTAR",
+                "NOAA",
+                "NWS",
+                "monthly",
+                "weather station",
+                "USDA",
+                "long-term",
+                "study 379",
+                "HQ",
+                "JER",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/862e7aa546c08c0f2ca1cb720b53a258",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210379002",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210379002",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "1914-06-01/1998-05-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.740997, 32.617001], [-106.740997, 32.617001], [-106.740997, 32.617001], [-106.740997, 32.617001], [-106.740997, 32.617001]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Locally verified evaporation data from a NOAA evaporation pan at USDA Jornada Experimental Range headquarters, southern New Mexico USA, 1953-1979",
+            "description": "This data package contains locally verified monthly total pan evaporation data from a NOAA National Weather Service station located at the USDA Jornada Experimental Range headquarters in southern New Mexico, USA. The evaporation pan measurements commenced in 1953 and ended in 1979 when the instrument was decommissioned. Pan evaporation observations were made using standard U.S. climatological service instrumentation and procedures. The included data were verified and transcribed directly from records retrieved from NOAA in ~1995 and have since undergone quality control and assurance procedures different than those in place at NOAA. These data therefore differ from those directly downloadable from NOAA servers. There is no further data from this decommissioned instrument, so this dataset is now complete and data will no longer be updated here.All observations from this weather station have also undergone NOAA QA/QC procedures and those data are available by accessing the Jornada Experimental Range, NM US GHCN station through the National Climatic Data Center portal (https://www.ncdc.noaa.gov/cdo-web/datasets/GSOM/stations/GHCND:USC00294426/detail - monthly pan evaporation data are available back to 1930, but there may be data issues prior to 1953).",
+            "modified": "2023-10-21T21:20:23",
+            "keyword": [
+                "Disturbance",
+                "atmospheric processes",
+                "climate",
+                "deserts",
+                "evaporation",
+                "evapotranspiration",
+                "hydrologic processes",
+                "hydrology",
+                "long term",
+                "meteorology",
+                "water balance",
+                "LTAR",
+                "NOAA",
+                "NWS",
+                "monthly",
+                "weather station",
+                "Hydrology",
+                "USDA",
+                "long-term",
+                "study 379",
+                "HQ",
+                "JER",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/f85805a9e8171e2b466697faec1acd87",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210379003",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210379003",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "1953-01-01/1979-09-01",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.740997, 32.617001], [-106.740997, 32.617001], [-106.740997, 32.617001], [-106.740997, 32.617001], [-106.740997, 32.617001]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Monthly precipitation data from a network of standard gauges at the Jornada Experimental Range (Jornada Basin LTER) in southern New Mexico, January 1916 - ongoing",
+            "description": "This ongoing dataset contains monthly precipitation measurements from a network of standard can rain gauges at the Jornada Experimental Range in Dona Ana County, New Mexico, USA. Precipitation physically collects within gauges during the month and is manually measured with a graduated cylinder at the end of each month. This network is maintained by USDA Agricultural Research Service personnel. This dataset includes 39 different locations but only 29 of them are current. Other precipitation data exist for this area, including event-based tipping bucket data with timestamps, but do not go as far back in time as this dataset.",
+            "modified": "2023-10-21T21:20:30",
+            "keyword": [
+                "disturbance",
+                "hydrology",
+                "long term ecological research",
+                "meteorology",
+                "precipitation",
+                "rain",
+                "rainfall",
+                "Jornada Basin LTER",
+                "network",
+                "rain gauge",
+                "standard rain gauge",
+                "Climate, Soils, and Atmosphere",
+                "Hydrology",
+                "Land-Atmosphere Interactions",
+                "Study 380",
+                "Dona Ana",
+                "HQ",
+                "JER",
+                "LTAR",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8685151.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210380001",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210380001",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "1915-01-01/2021-10-01",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.86942, 32.78256], [-106.86942, 32.4759], [-106.48979, 32.4759], [-106.48979, 32.78256], [-106.86942, 32.78256]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Jornada Basin LTER: Wireless meteorological station at NPP G-IBPE site: 15-minute summary data:  2016 - ongoing",
+            "description": "15-minute summary data at NPP G-IBPE met station. Average/maximum/minimum air temperature; average relative humidity and wind direction; average/maximum wind speed; atmospheric pressure; PAR; solar radiation. These are measured and calculated based on 1-second scan rate of all sensors located at an automated meteorological station installed at Jornada LTER NPP G-IBPE site. Wind speed is measured at 75 cm, 150 cm, and 300 cm, wind direction at approximately 3m, and air temperature and relative humidity at approximate 2.5m. This climate station is operated by the Jornada LTER Program. This is an ONGOING dataset.",
+            "modified": "2023-10-21T02:21:20",
+            "keyword": [
+                "air pressure",
+                "barometric pressure",
+                "PAR",
+                "rainfall",
+                "air temperature",
+                "meteorology",
+                "wind direction",
+                "wind speed",
+                "precipitation",
+                "rain",
+                "relative humidity",
+                "photosynthetically active radiation",
+                "atmospheric pressure",
+                "solar radiation",
+                "reflectance",
+                "shortwave radiation",
+                "longwave radiation",
+                "albedo",
+                "Climate",
+                "Soils",
+                "and Atmosphere",
+                "core",
+                "long-term",
+                "LTAR",
+                "NPP",
+                "study 437",
+                "NPP locations",
+                "G-IBPE",
+                "Disturbance",
+                "216",
+                "Data.gov",
+                "ARS",
+                "NSF > LTER=Long-Term Ecological Research",
+                "USDA > ARS > Natural Resources and Sustainable Agricultural Systems National Program > 216 Agricultural System Competitiveness and Sustainability",
+                "farming",
+                "environment",
+                "biota",
+                "climatologyMeteorologyAtmosphere",
+                "geoscientificInformation"
+            ],
+            "identifier": "10.6073/pasta/539d3316b67b6623e9c443f9285bddd2",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210437106",
+                    "downloadURL": "https://portal.edirepository.org/nis/mapbrowse?scope=knb-lter-jrn&identifier=210437106",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Data Manager",
+                "hasEmail": "mailto:jornada.data@nmsu.edu"
+            },
+            "temporal": "2016-03-01/2023-10-02",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-106.865, 32.669], [-106.865, 32.488], [-106.713, 32.488], [-106.713, 32.669], [-106.865, 32.669]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "<b>test1</b> \u0162\u0118\u0160\u0164\u30d8\u30a2\u306a\u3044\u6e9d",
+            "description": "<p dir=\"ltr\">test1 \u0162\u0118\u0160\u0164\u30d8\u30a2\u306a\u3044\u6e9d</p>",
+            "modified": "2024-02-08T16:13:14",
+            "keyword": [
+                "\u0162\u0118\u0160\u0164\u30d8\u30a2\u306a\u3044\u6e9d",
+                "test1"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8716513.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "pdffile.pdf",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830604413",
+                    "format": "pdf",
+                    "mediaType": "application/pdf"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "a\u0162a\u0118a\u0160a\u0164a\u30d8a\u30a2a\u306aa\u3044a\u6e9da.pdf",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830604415",
+                    "format": "pdf",
+                    "mediaType": "application/pdf"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "test",
+                    "accessURL": "https://geodata.nal.usda.gov/geonetwork/srv/api/records/d0e9a6e7-9e28-497c-a944-cb1ee892c542/formatters/xml",
+                    "format": "xml",
+                    "mediaType": "text/xml"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18",
+                "005:03"
+            ],
+            "programCode": [
+                "005:040",
+                "005:027"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "lastname firstname",
+                "hasEmail": "mailto:test@test.com"
+            },
+            "temporal": "2023-09-01/2023-09-06",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "test2",
+            "description": "<p dir=\"ltr\">test2</p>",
+            "modified": "2024-02-08T16:15:16",
+            "keyword": [
+                "test2"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8716523.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "",
+                    "accessURL": "https://geodata.nal.usda.gov/geonetwork/srv/api/records/d0e9a6e7-9e28-497c-a944-cb1ee892c542/formatters/xml",
+                    "format": "xml",
+                    "mediaType": "text/xml",
+                    "conformsTo": "http://www.isotc211.org/2005/gmd"
+                }
+            ],
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "testlastname testfirstname",
+                "hasEmail": "mailto:test@test.com"
+            },
+            "temporal": "2023-09-05/2023-09-05",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Data and code from: The Impacts of Parental Choice and Intrapopulation Selection for Seed Size on the Uprightness of Progeny Derived from Interspecific Hybridization between Glycine max and Glycine soja",
+            "description": "<p dir=\"ltr\">(Uploaded as a test: https://data.nal.usda.gov/dataset/data-and-code-impacts-parental-choice-and-intrapopulation-selection-seed-size-uprightness-progeny-derived-interspecific-hybridization-between-glycine-max-and-glycine-soja-1)</p><p dir=\"ltr\">This dataset contains all data and code necessary to reproduce the analysis described under the heading \"Experiment 3\" in the manuscript:</p><p dir=\"ltr\">Taliercio, E., Eickholt, D., Read, Q. D., Carter, T., Waldeck, N., & Fallen, B. (2023). Parental choice and seed size impact the uprightness of progeny from interspecific <i>Glycine</i> hybridizations. <i>Crop Science</i>. <a href=\"https://doi.org/10.1002/csc2.21015\">https://doi.org/10.1002/csc2.21015</a></p><p dir=\"ltr\">The attached files are:</p><ul><li><code>G_max_G_soja_seedweight_seedcolor_analysis.Rmd</code>: RMarkdown notebook containing all analysis code. The CSV data files should be placed in a subdirectory called data within the working directory from which the notebook is rendered.</li><li><code>G_max_G_soja_seedweight_seedcolor_analysis.html</code>: Rendered HTML output from RMarkdown notebook, including figures, tables, and explanatory text.</li><li><code>counts_seedwt.csv</code>: CSV file containing the number of progeny selected and average 100-seed weight data for each combination of cross, size class, and replicate. Columns are:</li><li><ul><li><b>F3_location:</b> text identifier of F3 nursery location, either <code>\"CLA\"</code> or <code>\"FF\"</code></li><li><b>plot:</b> numeric ID of plot</li><li><b>pop:</b> numeric ID of population</li><li><b>max:</b> name of G. max parent</li><li><b>soja:</b> name of G. soja parent</li><li><b>F2_location:</b> text identifier of F2 nursery location, either <code>\"Caswell\"</code> or <code>\"Hugo\"</code></li><li><b>n_planted:</b> number of seeds planted (raw)</li><li><b>n_selected:</b> number of progeny selected</li><li><b>size_ordered:</b> seed size class, to be converted to an ordered factor</li><li><b>size_combined:</b> seed size class aggregated to fewer unique levels</li><li><b>ave_100sw:</b> average 100-seed weight for the given size class</li><li><b>n_planted_trials:</b> number of seeds planted rounded to nearest integer</li></ul></li><li><code>seedcolor.csv</code>: CSV file with additional data on number of seeds of each color by population. Columns are:</li><li><ul><li><b>cross:</b> text identifier of cross</li><li><b>line:</b> text identifier of line</li><li><b>light:</b> number of light seeds</li><li><b>mid:</b> number of mid-green seeds</li><li><b>brown:</b> number of brown seeds</li><li><b>dark:</b> number of dark or black seeds</li><li><b>population:</b> identifier of population type (F2 derived or selected)</li><li><b>max:</b> name of <i>G. max</i> parent</li><li><b>n_total:</b> sum of the light, mid, brown, and dark columns</li><li><b>soja:</b> name of <i>G. soja</i> parent</li></ul></li></ul><p dir=\"ltr\">The data processing and analysis pipeline in the RMarkdown notebook includes:</p><ul><li>Importing the data (slightly cleaned version is provided)</li><li>Creating boxplots of proportion selected by cross, nursery location, and size class</li><li>Fitting logistic GLMM to estimate the probability of selection as a function of parent, 100-seed weight, and their interactions</li><li>Extracting and plotting random effect estimates from model</li><li>Calculating and plotting estimated marginal means from model</li><li>Taking contrasts between pairs of estimated marginal means and trends</li><li>Calculating Bayes Factors associated with the contrasts</li><li>Generating figures and tables for all above results</li><li>Additional seed color analysis: importing data (slightly cleaned version is provided)</li><li>Additional seed color analysis: drawing exploratory bar plot</li><li>Additional seed color analysis: fitting multinomial GLM modeling the proportion of seeds with each color as a function of population</li><li>Additional seed color analysis: generating expected value predictions from GLM and taking contrasts</li><li>Additional seed color analysis: creating figures and tables for model results</li></ul><p dir=\"ltr\">This research was funded by CRIS 6070-21220-069-00D, United Soybean Board Project # 2333-203-0101, and falls under National Program NP301.</p>",
+            "modified": "2023-09-07T19:35:27",
+            "keyword": [
+                "Glycine max",
+                "Glycine soja",
+                "soybean",
+                "seed size",
+                "uprightness",
+                "hybrids",
+                "plant breeding",
+                "response to selection",
+                "np301"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8718327.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "counts_seedwt.csv",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830605617",
+                    "format": "csv",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "data-and-code-from-the-impacts-of-parental-choice-and-intrapopulation-selection-for-seed-size-on-the-uprightness-of-progeny-.zip",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830605619",
+                    "format": "zip",
+                    "mediaType": "application/zip"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "G_max_G_soja_seedweight_seedcolor_analysis.html",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830605621",
+                    "format": "html",
+                    "mediaType": "text/html"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "G_max_G_soja_seedweight_seedcolor_analysis.Rmd",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830605623",
+                    "format": "Rmd",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "seedcolor.csv",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830605625",
+                    "format": "csv",
+                    "mediaType": "text/plain"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Quentin Read",
+                "hasEmail": "mailto:quentin.read@usda.gov"
+            },
+            "temporal": "2013-01-01/2021-12-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Data from: Characterization of particle size distributions and water-soluble ions in particulate matter measured at a broiler farm",
+            "description": "<p dir=\"ltr\">(Uploaded as a test: https://data.nal.usda.gov/dataset/data-characterization-particle-size-distributions-and-water-soluble-ions-particulate-matter-measured-broiler-farm)</p><p dir=\"ltr\">This is USDA-ARS data from the publication, \"Characterization of particle size distributions and water-soluble ions in particulate matter measured at a broiler farm.\" This study was conducted in June of 2018. Data included here are from several measurements:</p><ol><li>Gas-phase ammonia measurements measured by an electrochemical sensor (Cairpol) in part-per-billion (ppb) with 1 minute time interval.</li><li>Particle number concentration inside and outside the house measured by two optical particle counters (MetOne) in number per cubic centimeter (mg/cc) with 20 second interval. Particles were measured from 0.5-10 micrometers in 8 size bins.</li><li>Particle number concentration measured by a scanning mobility particle sizer (TSI) and given as the differential number per size bin over 80 bins from 10-500 nanometers with a 5 minute time interval.</li><li>Water-soluble ions in particulate matter measured by an ambient ion monitor (URG) measured in microgram per cubic meter with a 1 hour time interval.</li></ol><p dir=\"ltr\">Resources in this dataset:</p><ul><li>Resource Title: Ammonia Sensor Measurements<br>File Name: SensorNH3.txt</li><li>Resource Title: Optical Particle Counter 1<br>File Name: OpticalParticleCounter1.txt</li><li>Resource Title: Optical Particle Counter 2<br>File Name: OpticalParticleCounter2.txt</li><li>Resource Title: Scanning Mobility Particle Sizer Data (Matrix)<br>File Name: SMPS Data.txt</li><li>Resource Title: Scanning Mobility Particle Sizer Axes<br>File Name: SMPS Axes.txt</li><li>Resource Title: AIM Particulate Chemical Composition<br>File Name: AIM Composition.txt</li></ul><p></p>",
+            "modified": "2024-02-08T16:28:44",
+            "keyword": [
+                "ammonia",
+                "particulate matter",
+                "poultry",
+                "Broiler",
+                "NP212"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8722479.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "AIM Composition.txt",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830607273",
+                    "format": "txt",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "OpticalParticleCounter1.txt",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830607275",
+                    "format": "txt",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "OpticalParticleCounter2.txt",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830607271",
+                    "format": "txt",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "SensorNH3.txt",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830607277",
+                    "format": "txt",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "SMPS Axes.txt",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830607279",
+                    "format": "txt",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "SMPS Data.txt",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830607281",
+                    "format": "txt",
+                    "mediaType": "text/plain"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Philip Silva",
+                "hasEmail": "mailto:phil.silva@usda.gov"
+            },
+            "temporal": "2023-07-05/2023-07-05",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "UntitledData from: Identifying Critical Life Stage Transitions for Biological Control of Long-lived Perennial Vincetoxicum Species Item",
+            "description": "<p dir=\"ltr\">((uploaded as a test - https://data.nal.usda.gov/dataset/data-identifying-critical-life-stage-transitions-biological-control-long-lived-perennial-vincetoxicum-species))</p><p dir=\"ltr\">This dataset includes data on 25 transitions of a matrix demographic model of the invasive species <i>Vincetoxicum nigrum</i> (L.) Moench (black swallow-wort or black dog-strangling vine) and <i>Vincetoxicum rossicum</i> (Kleopow) Barb. (pale swallow-wort or dog-strangling vine) (Apocynaceae, subfamily Asclepiadoideae), two invasive perennial vines in the northeastern U.S.A. and southeastern Canada. The matrix model was developed for projecting population growth rates as a result of changes to lower-level vital rates from biological control although the model is generalizable to any control tactic. Transitions occurred among the five life stages of seeds, seedlings, vegetative juveniles (defined as being in at least their second season of growth), small flowering plants (having 1\u20132 stems), and large flowering plants (having 3 or more stems). Transition values were calculated using deterministic equations and data from 20 lower-level vital rates collected from 2009-2012 from two open field and two forest understory populations of <i>V. rossicum</i> (43\u00b051\u2019N, 76\u00b017\u2019W; 42\u00b048'N, 76\u00b040'W) and two open field populations of <i>V. nigrum</i> (41\u00b046\u2019N, 73\u00b044\u2019W; 41\u00b018\u2019N, 73\u00b058\u2019W) in New York State. Sites varied in plant densities, soil depth, and light levels (forest populations). Detailed descriptions of vital rate data collection may be found in: Milbrath et al. 2017. Northeastern Naturalist 24(1):37-53. Five replicate sets of transition data obtained from five separate spatial regions of a particular infestation were produced for each of the six populations.</p><p dir=\"ltr\">Note: Added new excel file of vital rate data on 12/7/2018.</p>",
+            "modified": "2023-09-13T16:13:42",
+            "keyword": [
+                "demography",
+                "matrix models",
+                "population dynamics",
+                "Invasive species",
+                "weed management",
+                "swallow-wort",
+                "NP304"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8727495.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Matrix_model_metadata.csv",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830609767",
+                    "format": "csv",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Matrix_model_transition_data.csv",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830609769",
+                    "format": "csv",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Matrix_Model_transition_data_DD_3.csv",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830609771",
+                    "format": "csv",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Matrix_model_vital rate_data.csv",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830609773",
+                    "format": "csv",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Vital_Rate.csv",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830609775",
+                    "format": "csv",
+                    "mediaType": "text/plain"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Lindsey Milbrath",
+                "hasEmail": "mailto:Lindsey.Milbrath@ars.usda.gov"
+            },
+            "temporal": "2009-08-01/2012-08-01",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Data from: Mapping the Quantitative Field Resistance to Stripe Rust in a Hard Winter Wheat Population \u2018Overley\u2019 \u00d7 \u2018Overland\u2019",
+            "description": "<p dir=\"ltr\">((uploaded as test: https://data.nal.usda.gov/dataset/data-mapping-quantitative-field-resistance-stripe-rust-hard-winter-wheat-population-\u2018overley\u2019-\u00d7-\u2018overland\u2019))</p><p dir=\"ltr\">Data reported in research published in Crop Science, \u201cMapping the quantitative field resistance to stripe rust in a hard winter wheat population \u2018Overley\u2019 \u00d7 \u2018Overland.\u2019\u201d Authors are Wardah Mustahsan, Mary J. Guttieri, Robert L. Bowden, Kimberley Garland-Campbell, Katherine Jordan, Guihua Bai, Guorong Zhang from USDA Agricultural Research Service and Kansas State University. This study was conducted to identify quantitative trait loci (QTL) associated with field resistance to stripe rust, also known as yellow rust (YR), in hard winter wheat. Stripe rust infection type and severity were rated in recombinant inbred lines (RILs, n=204) derived from a cross between hard red winter wheat cultivars \u2018Overley\u2019 and \u2018Overland\u2019 in replicated field trials in the Great Plains and Pacific Northwest. RILs (n=184) were genotyped with reduced representation sequencing to produce SNP markers from alignment to the \u2018Chinese Spring\u2019 reference sequence, IWGSC v2.1, and from alignment to the reference sequence for \u2018Jagger\u2019, which is a parent of Overley. Genetic linkage maps were developed independently from each set of SNP markers. QTL analysis identified genomic regions on chromosome arms 2AS, 2BS, 2BL, and 2DL that were associated with stripe rust resistance using multi-environment best linear unbiased predictors for stripe rust infection type and severity. Results for the two linkage maps were very similar. PCR-based SNP marker assays associated with the QTL regions were developed to efficiently identify these genomic regions in breeding populations.Field response to YR was evaluated in seven trials: Rossville, KS (2018 and 2019), Hays, KS (2019), Pullman, WA (2019 and 2020) and Central Ferry, WA (2019 and 2020). An augmented experimental design was used at Rossville, KS with highly replicated checks and two full replications of RILs (n=187 in 2018; n=204 in 2019). The field experiment at Hays was arranged in a partially replicated augmented design with one or two replications of each RIL (n=194). The parental checks (Overley and Overland) were represented in three blocks for each of the two field replications at Hays, and RILs were distributed among blocks; not all RILs were present in each replication. RILs were arranged in an augmented design with two replications at Pullman (n=204 RILs) and Central Ferry (n=155 RILs in 2019; n=204 in 2020). At Pullman and Central Ferry.The trials at Rossville, KS were inoculated using an inoculum consisting of equal parts of four isolates that were all virulent to Yr9. Two isolates were collected in Kansas in 2010 and had virulence to Yr17 but not QYr.tamu-2B. The other two isolates were from Kansas in 2012 and had virulence to QYr.tamu-2B, but not Yr17. Susceptible spreader rows (KS89180B, carrying Yr9) were inoculated several times during the tillering stage in the evenings with an ultra-low volume sprayer using a suspension of 2 mL of fresh urediniospores in 1 L of Soltrol 170 isoparaffin oil. Trials at Pullman, WA and Central Ferry, WA were evaluated under natural inoculum supplemented by a mixture of isolates collected in the previous field season. The trial at Hays, KS was evaluated under natural infection.Data collection at Rossville, KS began once the susceptible check (KS89180B) had an infection severity coverage of ~10% and continued until senescence. In Rossville, disease ratings (IT and SEV) were collected on 16, 22, and 28th of May 2019. Most ratings in Rossville were taken some time after heading from Zadoks stages 55 to 70. In Pullman, disease ratings were collected on July 1 and 12. In Central Ferry, disease ratings were taken on 12th and 18th of June 2019. The second rating date was used for subsequent statistical analysis. In Hays, disease ratings were taken on June 1, 2019, when the plants were in early booting or heading stages (Zadoks 31-41). Stripe rust evaluations were measured using two disease rating scales: IT (0-9; from no infection to highly susceptible, Line and Qayoum, 1992) and SEV based on visual estimation of the percent flag leaf area affected by the pathogen including associated chlorosis and necrosis (0-100%).DNA was extracted from seedlings, and genotyping-by-sequencing was conducted as described previously (Guttieri, 2020) on a subset of 189 lines (187 RILS and 2 parents) of which 23 RILs were F6-derived and 164 RILs were F9-derived. Single nucleotide polymorphisms (SNPs) were identified in parallel using reference-based calling in the TASSEL pipeline (Bradbury et al., 2007) using both the IWGSC v2.1 reference genome (Zhu et al., 2021) and the Jagger reference sequence (Wheat Genomes Project (http://www.10wheatgenomes.com/10-wheat-genomes-project-and-the-wheat-ini...). The TASSEL pipeline was executed with the following parameters: minimum read count = 1, minimum quality score = 0, minimum locus coverage = 0.19, and minimum minor allele frequency = 0.005, minimum heterozygous proportion = 0, and removal of minor SNP states. The resulting SNP datasets from each reference sequence were filtered in TASSEL by taxa (RILs) and sites (SNPs). The RILs were filtered to include those RILs for which at least 20% sites were present. The sites were filtered to include sites for which > 60% of RILs were called, minor allele frequency (MAF) > 0.25, maximum allele frequency < 0.75, maximum heterozygous proportion = 0.25, and removal of minor SNP states. The ABH plugin in TASSEL was applied to this reduced dataset to identify parental genotypes.Resources in this dataset:Resource Title: Multilocation Stripe Rust DataFile Name: MultiLocRawData_Yr.xslxResource Title: OvOv_CS_TasselSNPCallsFile Name: KSM17-OvOv-parents_merge1.hmp_.txtResource Description: Output of TASSEL GBS SNP calling pipeline using Chinese Spring v2 refseq. Starting point for map construction pipeline.Resource Title: OvOv GBS SNP Calls Jagger RefSeqFile Name: KSM17-OvOv-Jagger_pmerge1.hmp_.txtResource Description: TASSEL output from reference-based SNP calling using the Jagger reference sequenceResource Title: QTL-Associated KASP Markers with IT and SEV BLUPsFile Name: KASP_Data_IT_SEV.xlsxResource Description: Multilocation best linear unbiased predictors (BLUPs) for stripe rust infection type and severity of recombinant inbred lines. KASP assay results for QTL-associated SNPs, coded Overley = 2, Overland = 0, Het = 1, Missing = \".\"</p>",
+            "modified": "2023-09-14T19:44:34",
+            "keyword": [
+                "np301",
+                "wheat",
+                "stripe rust",
+                "genetic map"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.8730667.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "KASP_Data_IT_SEV.xlsx",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830611937",
+                    "format": "xlsx",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "KSM17-OvOv-Jagger_pmerge1.hmp_.txt",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830611941",
+                    "format": "txt",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "KSM17-OvOv-parents_merge1.hmp_.txt",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830611943",
+                    "format": "txt",
+                    "mediaType": "text/plain"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "MultiLocRawData_Yr.xlsx",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830611939",
+                    "format": "xlsx",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Mary Guttieri",
+                "hasEmail": "mailto:Mary.Guttieri@usda.gov"
+            },
+            "temporal": "2018-05-01/2020-07-01",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Grass-Cast Database - Data on aboveground net primary productivity (ANPP), climate data, NDVI, and cattle weight gain for Western U.S. rangelands",
+            "description": "<p>Grass-Cast: Experimental Grassland Productivity Forecast for the Great Plains</p>\n<p>Grass-Cast uses almost 40 years of historical data on weather and vegetation growth in order to project grassland productivity in the Western U.S. More details on the projection model and method can be found at <a href=\"https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3280\">https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3280</a>.</p>\n<p>Every spring, ranchers in the drought\u2010prone U.S. Great Plains face the same difficult challenge\u2014trying to estimate how much forage will be available for livestock to graze during the upcoming summer grazing season. To reduce this uncertainty in predicting forage availability, we developed an innovative new grassland productivity forecast system, named Grass\u2010Cast, to provide science\u2010informed estimates of growing season aboveground net primary production (ANPP). Grass\u2010Cast uses over 30 yr of historical data including weather and the satellite\u2010derived normalized vegetation difference index (NDVI)\u2014combined with ecosystem modeling and seasonal precipitation forecasts\u2014to predict if rangelands in individual counties are likely to produce below\u2010normal, near\u2010normal, or above\u2010normal amounts of grass biomass (lbs/ac). Grass\u2010Cast also provides a view of rangeland productivity in the broader region, to assist in larger\u2010scale decision\u2010making\u2014such as where forage resources for grazing might be more plentiful if a rancher\u2019s own region is at risk of drought. Grass\u2010Cast is updated approximately every two weeks from April through July. Each Grass\u2010Cast forecast provides three scenarios of ANPP for the upcoming growing season based on different precipitation outlooks. Near real\u2010time 8\u2010d NDVI can be used to supplement Grass\u2010Cast in predicting cumulative growing season NDVI and ANPP starting in mid\u2010April for the Southern Great Plains and mid\u2010May to early June for the Central and Northern Great Plains. Here, we present the scientific basis and methods for Grass\u2010Cast along with the county\u2010level production forecasts from 2017 and 2018 for ten states in the U.S. Great Plains. The correlation between early growing season forecasts and the end\u2010of\u2010growing season ANPP estimate is >50% by late May or early June. In a retrospective evaluation, we compared Grass\u2010Cast end\u2010of\u2010growing season ANPP results to an independent dataset and found that the two agreed 69% of the time over a 20\u2010yr period. Although some predictive tools exist for forecasting upcoming growing season conditions, none predict actual productivity for the entire Great Plains. The Grass\u2010Cast system could be adapted to predict grassland ANPP outside of the Great Plains or to predict perennial biofuel grass production.</p>\n<p>This new experimental grassland forecast is the result of a collaboration between Colorado State University, U.S. Department of Agriculture (USDA), National Drought Mitigation Center, and the University of Arizona. Funding for this project was provided by the USDA Natural Resources Conservation Service (NRCS), USDA Agricultural Research Service (ARS), and the National Drought Mitigation Center.</p>\n<p>Watch for updates on the Grass-Cast website or on Twitter (@PeckAgEc). Project Contact: Dannele Peck, Director of the USDA Northern Plains Climate Hub, at <a href=\"mailto:dannele.peck@ars.usda.gov\">dannele.peck@ars.usda.gov</a> or 970-744-9043.</p>\n<div><br>This record was taken from the USDA Enterprise Data Inventory that feeds into the  <a href=\"https://data.gov\">https://data.gov</a> catalog. Data for this record includes the following resources:</div><ul>   <li>  <a href=\"https://data.nal.usda.gov/system/files/Grass-Cast_AgDataCommons_download.html\">Grass-Cast_AgDataCommons_overview</a></li>   <li>  <a href=\"https://data.nal.usda.gov/system/files/R_access_script.zip\">Grass-Cast R script</a></li>   <li>  <a href=\"https://data.nal.usda.gov/system/files/ANPP.xlsx\">ANPP</a></li>   <li>  <a href=\"https://data.nal.usda.gov/system/files/Cattle_weight_gains.xlsx\">Cattle weight gain</a></li>   <li>  <a href=\"https://data.nal.usda.gov/system/files/NDVI.xlsx\">NDVI</a></li>   <li>  <a href=\"https://data.nal.usda.gov/system/files/NDVI_raw.xlsx\">NDVI_raw</a></li>   <li>  <a href=\"https://data.nal.usda.gov/system/files/Grass-Cast_sitelist.xlsx\">Grass-Cast_sitelist</a></li></ul><div>For complete information, please visit <a href=\"https://data.gov\">https://data.gov</a>.</div>",
+            "modified": "2023-10-17T21:37:38",
+            "keyword": [
+                "cattle",
+                "cattle weight gain",
+                "Grass-Cast",
+                "grasses",
+                "NDVI",
+                "net primary production",
+                "Rangelands"
+            ],
+            "identifier": "10113/AF8831829",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://data.nal.usda.gov/system/files/Grass-Cast_AgDataCommons_download.html",
+                    "downloadURL": "https://data.nal.usda.gov/system/files/Grass-Cast_AgDataCommons_download.html",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18",
+                "005:53"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Dorich, Chris",
+                "hasEmail": "mailto:chris.dorich@colostate.edu"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "ACRE Study for Greenhouse gas Reduction through Agricultural Carbon Enhancement network in West Lafayette, Indiana",
+            "description": "<p>ACRE Study for Greenhouse gas Reduction through Agricultural Carbon Enhancement network in West Lafayette, Indiana\nIn-field measurements of direct soil greenhouse gas (GHG) emissions provide critical data for quantifying the net energy efficiency and economic feasibility of crop residue based bioenergy production systems. A major challenge to such assessments has been the paucity of field studies addressing the effects of crop residue removal and associated best practices for soil management (i.e., conservation tillage) on soil emissions of carbon dioxide (CO2), nitrous oxide (N2O), and methane (CH4). This regional survey summarizes soil GHG emissions from nine maize production systems evaluating different levels of corn stover removal under conventional or conservation tillage management across the US Corn Belt. Cumulative growing season soil emissions of CO2, N2O, and/ or CH4 were measured for 2\ufffdC5 years (2008\ufffdC2012) at these various sites using a standardized static vented chamber technique as part of the USDA-ARS\ufffd\ufffds Resilient Economic Agricultural Practices (REAP) regional partnership. Cumulative soil GHG emissions during the growing season varied widely across sites, by management, and by year. Overall, corn stover removal decreased soil total CO2 and N2O emissions by -4 and -7 %, respectively, relative to no removal. No management treatments affected soil CH4 fluxes.When aggregated to total GHG emissions (Mg CO2eq ha-1) across all sites and years, corn stover removal decreased growing season soil emissions by -5\ufffd\ufffd1 % (mean\ufffd\ufffdse) and ranged from -36 % to 54 % (n=50). Lower GHG emissions in stover removal treatments were attributed to decreased C and N inputs into soils, as well as possible microclimatic differences associated with changes in soil cover. High levels of spatial and temporal variabilities in direct GHG emissions highlighted the importance of site-specific management and environmental conditions on the dynamics of GHG emissions from agricultural soils.</p> <div><br>Resources in this dataset:</div><br><ul><li><p>Resource Title: West Lafayette, IN ACRE Study (INWLACRE) CSV data.</p> <p>File Name: INWLACRE_csv_data.zip</p><p>Resource Description: CSV format data on Experimental Units, Field Sites, Greenhouse Gas Flux, Harvest Fraction, Residue Management, Soil Biology, Soil Chemistry, Soil Physics, Amendments, Growth Stages, Planting, Tillage, Persons, Treatments, Weather Daily, Weather Station.</p></li></ul>",
+            "modified": "2023-12-14T14:05:07",
+            "keyword": [
+                "farming",
+                "Environment",
+                "iso metadata",
+                "NP211",
+                "NP212",
+                "data.gov",
+                "ARS"
+            ],
+            "identifier": "10.15482/USDA.ADC/1504023",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "INWLACRE_csv_data.zip",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830744979",
+                    "format": "zip",
+                    "mediaType": "application/zip"
+                }
+            ],
+            "license": "https://www.usa.gov/publicdomain/label/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "irregular"
+            ],
+            "contactPoint": {
+                "fn": "Sanders, Nancy",
+                "hasEmail": "mailto:nancy.sanders@usda.gov"
+            },
+            "temporal": "2004-03-01/2011-12-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-86.999088, 40.472746], [-86.996963, 40.472746], [-86.996963, 40.471981], [-86.999088, 40.471981], [-86.999088, 40.472746]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "SGP97 GCIP/NESOB Surface: Skin Temperature Composite",
+            "description": "<p>This 30 minute Skin Temperature Composite is one of several surface-layer data sets provided in the Atmospheric Radiation Measurement (ARM)/Global Energy and Water Cycle Experiment (GEWEX) Continental-Scale International Project (GCIP) Near Surface Observation Data Set - 1997 (NESOB-97). This Skin Temperature composite was formed from three data sources: the 10m and 25m ARM/Clouds and Radiation Testbed (CART) Multi-Filter Radiometer (MFR) 20 second data, and 30 minute data from the GCIP National Oceanic and Atmospheric Administration (NOAA)/Atmospheric Turbulence and Diffusion Division (ATDD) Little Washita, Oklahoma long term flux monitoring site. This composite was developed by the merging of the 30-minute averaged values of skin temperature as provided by NOAA/ATDD for its Little Washita station and the 30-minute averaged values of skin temperature as derived by University Corporation for Atmospheric Research/Joint Office for Science Support (UCAR/JOSS) from the 20-second values provided by ARM for its 10m and 25m MFR stations. UCAR/JOSS computed standard deviations for the ARM 10m and 25m MFR data when at least 15 observations were available within the 30-minute averaging interval. The ARM/GCIP NESOB-97 Skin Temperature Composite contains 8 metadata parameters and 3 data parameters. The metadata parameters describe the date/time, network, station, and location at which the data were collected. The 3 data parameters repeat once for each 30 minute period from UTC 0000 through UTC 2330. Data reported for a designated 30 minute time represents data collected during the previous 30 minute period. All times are reported in UTC, and skin temperature values are reported in degrees Celsius. Each data value is followed by a Quality Control flag, but UCAR/JOSS does not Quality Control the data at the present time. The Quality Control flag is set to \"U\" for \"Unchecked\", unless the datum is missing, in which case the flag is set to \"M\". Missing values are -999.99. The standard deviation was calculated for the ARM 10m and 25m MFR Skin Temperature values when there were at least 15 measurements in the 30 minute averaging interval. No standard deviations were calculated for the Little Washita data, since it originated in 30 minute frequency.</p> <div><br>Resources in this dataset:</div><br><ul><li><p>Resource Title: GeoData catalog record.</p> <p>File Name: Web Page, url: <a href=\"https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/f45c0d23-6589-4259-b198-28cbda6b360f\" target=\"_blank\">https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/f45c0d23-6589-4259-b198-28cbda6b360f</a> </p></li></ul>",
+            "modified": "2023-12-14T14:06:15",
+            "keyword": [
+                "temperature",
+                "hydrologic cycle",
+                "hydrology",
+                "turbulent flow",
+                "Soil",
+                "Water",
+                "data.gov",
+                "ARS"
+            ],
+            "identifier": "10113/AA24187",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/f45c0d23-6589-4259-b198-28cbda6b360f",
+                    "downloadURL": "https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/f45c0d23-6589-4259-b198-28cbda6b360f",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Jackson, Thomas",
+                "hasEmail": "mailto:Tom.Jackson@ars.usda.gov"
+            },
+            "temporal": "1997-04-01/1998-03-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-100.5, 39], [-94.5, 39], [-94.5, 34], [-100.5, 34], [-100.5, 39]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "SGP97 ARM Soil Water Retention Data Set",
+            "description": "<p>The Southern Great Plains 1997 (SGP97) Hydrology Experiment originated from an interdisciplinary investigation, \"Soil Moisture Mapping at Satellite Temporal and Spatial Scales\" (PI: Thomas J. Jackson, USDA Agricultural Research Service, Beltsville, MD) selected under the NASA Research Announcement 95-MTPE-03. The core of the 1997 experiment involves the deployment of the L-band Electronically Scanned Thinned Array Radiometer (ESTAR) for daily mapping of surface soil moisture. The region selected for investigation is the best instrumented site for surface soil moisture, hydrology and meteorology in the world. This includes the USDA/ARS Little Washita Watershed, the USDA/ARS facility at El Reno, Oklahoma, the ARM/CART central facility, as well as the Oklahoma Mesonet. The temporal coverage for this dataset is as follows: Begin datetime: 1995-10-01 00:00:00, End datetime: 2001-03-31 23:59:59. The Department of Energy (DOE) Atmospheric Radiation Measurement (ARM) Southern Great Plains (SGP) Soil Water Retention Data Set is one of the various sub-surface data sets developed for the ARM/GCIP (Global Energy and Water Cycle Experiment (GEWEX) Continental-scale International Project) 1996 Near-Surface Observation (NESOB-96) Data Set. This data set contains a table for each of the ARM SWATS (Soil Water and Temperature System) sites at the SGP site containing the observed soil water retention data as obtained from laboratory tests using pressure plates and hanging columns. The soil characterizations were perfomed by Oklahoma State University.</p> <div><br>Resources in this dataset:</div><br><ul><li><p>Resource Title: GeoData catalog record.</p> <p>File Name: Web Page, url: <a href=\"https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/SGP97armRetention_JJM_2015-04-23_1419\" target=\"_blank\">https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/SGP97armRetention_JJM_2015-04-23_1419</a> </p></li></ul>",
+            "modified": "2023-12-14T14:06:14",
+            "keyword": [
+                "Environment",
+                "farming",
+                "Soil",
+                "Water",
+                "meteorology",
+                "watersheds",
+                "hydrology",
+                "temperature",
+                "data.gov",
+                "ARS"
+            ],
+            "identifier": "10113/AA24193",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/SGP97armRetention_JJM_2015-04-23_1419",
+                    "downloadURL": "https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/SGP97armRetention_JJM_2015-04-23_1419",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Elliot, Ron",
+                "hasEmail": "mailto:relliot@okstate.edu"
+            },
+            "temporal": "1995-10-01/2001-03-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-99.32, 38.31], [-95.6, 38.31], [-95.6, 35.25], [-99.32, 35.25], [-99.32, 38.31]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Eliza test 2",
+            "description": "<p>This 30 minute Sensible, Latent and Ground Heat Flux Composite is one of two surface-layer flux data sets provided in the Atmospheric Radiation Measurement(ARM)/Global Energy and Water Cycle Experiment (GEWEX) Continental-Scale International Project (GCIP) Near Surface Observation Data Set - 1997 (NESOB-97). This Sensible, Latent and Ground Heat Flux composite was formed from three data sources: the ARM Southern Great Plains (SGP) Clouds and Radiation Testbed (CART) Energy Balance/Bowen Ratio (EBBR) sites, the National Oceanic and Atmospheric Administration (NOAA)/Atmospheric Turbulence and Diffusion Division (ATDD) Little Washita Watershed site, and the ARM SGP Eddy Correlation (ECOR) sites. Data from 14 ARM/EBBR stations, 1 NOAA/ATDD station, and 8 ARM/ECOR stations were merged to form this composite. The University Corporation for Atmospheric Research/Joint Office for Science Support (UCAR/JOSS) did not do any quality control on the data set. Heat flux sensors consist of a differential temperature sensor which measures heat flow. Heat flux is a vector quantity of energy flowing through a 1 meter square surface in one second. Sensible heat flux is the transfer of sensible heat between the surface and the air, or vice versa. Latent heat flux is the transfer of latent heat (heat released or absorbed by water) between the surface and the air, or vice versa. Ground, or soil, heat flux is the transfer of sensible heat in the soil, either toward the surface or away from the surface. The Little Washita site records only 1 soil heat flux value. The EBBR sites record soil heat flux values from 5 different sensors. The ARM soil sensors are located in a half-circle approximately 2 meters in diameter under the net radiometer, which extends to the south about 1 meter from the EBBR frame. The soil conditions at the EBBR sites are varied from very sandy soil to very clay-laden soil. However, all of the sensors for one particular EBBR site are in the same soil type. Information on the soil characteristics at each of the ARM Soil Water and Temperature System (SWATS) sites (which are located nearby the ARM EBBR sites) is available as part of the ARM/GCIP NESOB-97. (These include the \"Organic Carbon and Matter\", \"Soil Texture\", \"Parameters for Soil Water Retention Models\", \"Bulk Density\", Particle Size\", and \"Soil Water Retention\" data sets). The EBBR sites also record Bowen Ratio, home_15 and home_30 values, as well, whereas the Little Washita site does not. Since this is a composite data set, only the first 3 fields of data from the Little Washita site will have values, while the rest of the parameters on a line will always be missing. Missing values are -999.99999.\n(NOAA)/Atmospheric Turbulence and Diffusion Division (ATDD) Little Washita, Oklahoma long term flux monitoring site. This composite was developed by the merging of the computed 30-minute averaged  values of Net Radiation as derived by University Corporation for Atmospheric Research/Joint Office for Science Support (UCAR/JOSS) from the 20-second values provided by ARM for its SIROS and SIRS stations, and the 30-minute averaged values of Incoming/Outgoing PAR and Net Radiation as provided by NOAA/ATDD for its Little Washita station. UCAR/JOSS computed standard deviations for the averaged data when at least 15 observations were available within the 30-minute averaging interval. JOSS did not do any other quality control on the data set. The NESOB-97 Net Radiation and PAR Composite Dataset contains eight metadata parameters and nine data parameters and flags. The metadata parameters describe the date, time, network, station and location at which the data were collected. Data values are valid for the 30 minutes preceeding the time of observation. All times are UTC. The data parameters have an associated QC flag but UCAR/JOSS does not Quality Control the data at the present time. The Quality Control flag is set to \"U\" for \"Unchecked\", unless the datum is missing, in which case the flag is set to \"M\". Note that the SIROS stations were changed over to SIRS in August 1997.</p> <div><br>Resources in this dataset:</div><br><ul><li><p>Resource Title: GeoData catalog record.</p> <p>File Name: Web Page, url: <a href=\"https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/428b1ca5-4e93-4553-8373-29d739077c1f\" target=\"_blank\">https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/428b1ca5-4e93-4553-8373-29d739077c1f</a> </p></li></ul><p></p>",
+            "modified": "2023-12-14T13:33:15",
+            "keyword": [
+                "Environment",
+                "heat transfer",
+                "hydrologic cycle",
+                "hydrology",
+                "turbulent flow",
+                "watersheds",
+                "eddy covariance",
+                "Soil",
+                "air",
+                "Water",
+                "models",
+                "photosynthetically active radiation",
+                "particle size",
+                "bulk density",
+                "temperature",
+                "data.gov",
+                "ARS"
+            ],
+            "identifier": "10113/AA24199",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/428b1ca5-4e93-4553-8373-29d739077c1f",
+                    "downloadURL": "https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/428b1ca5-4e93-4553-8373-29d739077c1f",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Jackson, Thomas",
+                "hasEmail": "mailto:Tom.Jackson@ars.usda.gov"
+            },
+            "temporal": "1997-04-01/1998-03-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "SGP97 ARM Soil Particle Size Data Set",
+            "description": "<p>The Southern Great Plains 1997 (SGP97) Hydrology Experiment originated from an interdisciplinary investigation, \"Soil Moisture Mapping at Satellite Temporal and Spatial Scales\" (PI: Thomas J. Jackson, USDA Agricultural Research Service, Beltsville, MD) selected under the NASA Research Announcement 95-MTPE-03. The core of the 1997 experiment involves the deployment of the L-band Electronically Scanned Thinned Array Radiometer (ESTAR) for daily mapping of surface soil moisture. The region selected for investigation is the best instrumented site for surface soil moisture, hydrology and meteorology in the world. This includes the USDA/ARS Little Washita Watershed, the USDA/ARS facility at El Reno, Oklahoma, the ARM/CART central facility, as well as the Oklahoma Mesonet. The temporal coverage for this dataset is as follows: Begin datetime: 1995-10-01 00:00:00, End datetime: 2001-03-31 23:59:59. The Department of Energy (DOE) Atmospheric Radiation Measurement (ARM) Southern Great Plains (SGP) Soil Particle Size Data Set is one of the various sub-surface data sets developed for the ARM/GCIP (Global Energy and Water Cycle Experiment ?GEWEX? Continental-scale International Project) 1996 Near-Surface Observation (NESOB-96) Data Set. This data set contains tables of the laboratory data for each soil layer at each of the ARM SWATS (Soil Water and Temperature System) sites at the SGP site. The soil characterizations were perfomed by Oklahoma State University.</p> <div><br>Resources in this dataset:</div><br><ul><li><p>Resource Title: GeoData catalog record.</p> <p>File Name: Web Page, url: <a href=\"https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/SGP97armParticle_JJM_2015-04-23_1404\" target=\"_blank\">https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/SGP97armParticle_JJM_2015-04-23_1404</a> </p></li></ul><p></p>",
+            "modified": "2023-12-14T12:49:48",
+            "keyword": [
+                "Environment",
+                "farming",
+                "Soil",
+                "Water",
+                "meteorology",
+                "watersheds",
+                "particle size",
+                "hydrology",
+                "models",
+                "data.gov",
+                "ARS"
+            ],
+            "identifier": "10113/AA24205",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/SGP97armParticle_JJM_2015-04-23_1404",
+                    "downloadURL": "https://geodata.nal.usda.gov/geonetwork/srv/eng/catalog.search#/metadata/SGP97armParticle_JJM_2015-04-23_1404",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Elliot, Ron",
+                "hasEmail": "mailto:relliot@okstate.edu"
+            },
+            "temporal": "1995-10-01/2001-03-31",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-99.32, 38.31], [-95.6, 38.31], [-95.6, 35.25], [-99.32, 35.25], [-99.32, 38.31]]]}",
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Data and Code from: Local adaptation and broad performance are synergistic to productivity in modern barley",
+            "description": "<p dir=\"ltr\">Data and analysis for Ewing et al., <i>Accepted</i>. Local adaptation and broad performance are synergistic to productivity in modern barley. <i>Crop Science</i></p>",
+            "modified": "2023-12-20T16:37:58",
+            "keyword": [
+                "barley",
+                "crop production"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.9011571.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://doi.org/10.5281/zenodo.10267964",
+                    "downloadURL": "https://doi.org/10.5281/zenodo.10267964",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "Ewing, Patrick",
+                "hasEmail": "mailto:patrick.ewing@usda.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "test Frequency",
+            "description": "<p dir=\"ltr\">test</p>",
+            "modified": "2024-02-13T11:49:32",
+            "keyword": [
+                "test"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.9171313.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "test rm",
+                    "accessURL": "https://geodata.nal.usda.gov/geonetwork/srv/api/records/d0e9a6e7-9e28-497c-a944-cb1ee892c542/formatters/xml",
+                    "format": "xml",
+                    "mediaType": "text/xml",
+                    "conformsTo": "http://www.isotc211.org/2005/gmd"
+                }
+            ],
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "R/P0.5M"
+            ],
+            "contactPoint": {
+                "fn": "test",
+                "hasEmail": "mailto:test@test.com"
+            },
+            "temporal": "2024-02-01/2024-02-01",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "link file",
+            "description": "<p dir=\"ltr\">test</p>",
+            "modified": "2024-02-13T11:52:29",
+            "keyword": [
+                "test"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.9171319.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "https://test.com",
+                    "downloadURL": "https://test.com",
+                    "format": "",
+                    "mediaType": "text/html"
+                }
+            ],
+            "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "accrualPeriodicity": [
+                "R/P2Y"
+            ],
+            "contactPoint": {
+                "fn": "test name",
+                "hasEmail": "mailto:testemail@test.com"
+            },
+            "temporal": "2024-02-13/2024-02-13",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "accessLevel": "public"
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "test file",
+            "description": "<p dir=\"ltr\">test</p>",
+            "modified": "2024-02-13T12:06:31",
+            "keyword": [
+                "test"
+            ],
+            "identifier": "10.0166/FK2.stagefigshare.9171325.v1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "title": "Metadata_ISO_1524800.xml",
+                    "downloadURL": "https://ndownloader.figsh.com/files/830871665",
+                    "format": "xml",
+                    "mediaType": "text/plain",
+                    "conformsTo": "http://www.isotc211.org/2005/gmd"
+                }
+            ],
+            "license": "https://rightsstatements.org/vocab/UND/1.0/",
+            "bureauCode": [
+                "005:18"
+            ],
+            "programCode": [
+                "005:040"
+            ],
+            "contactPoint": {
+                "fn": "test name",
+                "hasEmail": "mailto:testemail@email.com"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Agricultural Research Service"
+            },
+            "theme": [
+                "geospatial"
+            ],
+            "accessLevel": "public"
+        }
+    ]
+}
